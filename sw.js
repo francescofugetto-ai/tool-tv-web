@@ -4,7 +4,7 @@
 // e' lenta, dopo 4 secondi si serve la copia invece di lasciare lo schermo
 // bianco. Scritto da scripts/pubblica_tool.py di claude-hub: non modificarlo
 // nel repository pubblico, la pubblicazione successiva lo sovrascrive.
-var CACHE = "tool-tv-web-20261007";
+var CACHE = "tool-tv-web-20261102";
 var FILE = ["./", "index.html", "manifest.webmanifest",
             "icona-180.png", "icona-192.png", "icona-512.png"];
 
