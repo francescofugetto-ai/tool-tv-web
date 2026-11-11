@@ -322,15 +322,16 @@ html.js.motore-ko #nomotore{display:block}
     </span></div>
 </div>
 
-<div class="stage"><span class="stage-n">4</span><span class="stage-t">Le condizioni che escludono un farmaco</span><span class="stage-w">Tab. 8, pp. 4035–4037 · p. 4030</span></div>
+<div class="stage"><span class="stage-n">4</span><span class="stage-t">Le condizioni che escludono un farmaco</span><span class="stage-w">Tab. 8, pp. 4035–4037 · p. 4030 · Rec. Table 41, p. 4077</span></div>
 <div class="card">
   <label class="chk"><input type="checkbox" id="nodo"><span class="tx">Disfunzione severa del nodo del seno o disturbi severi della conduzione AV</span></label>
   <label class="chk"><input type="checkbox" id="ivc"><span class="tx">Disturbi severi della conduzione intraventricolare</span></label>
   <label class="chk"><input type="checkbox" id="brs"><span class="tx">Sindrome di Brugada</span></label>
-  <label class="chk"><input type="checkbox" id="lqts"><span class="tx">Sindrome del QT lungo congenito</span></label>
+  <label class="chk"><input type="checkbox" id="lqts"><span class="tx">Sindrome del QT lungo congenito<small>nel QT lungo la ESC 2022 chiede di evitare i farmaci che lo allungano (Rec. Table 41, p. 4077): procainamide e amiodarone esclusi, anche dopo gli shock che non riescono; resta la cardioversione</small></span></label>
   <label class="chk"><input type="checkbox" id="fevs"><span class="tx">Disfunzione ventricolare sinistra severa, o scompenso con FE ridotta</span></label>
   <label class="chk"><input type="checkbox" id="ivs"><span class="tx">Ipertrofia ventricolare sinistra significativa<small>la Tab. 8 vi controindica il sotalolo (p. 4037)</small></span></label>
   <label class="chk"><input type="checkbox" id="scomp"><span class="tx">Scompenso acuto in corso</span></label>
+  <label class="chk"><input type="checkbox" id="ipot"><span class="tx">Ipotensione<small>lo strumento non la gradua: esclude procainamide, adenosina, betabloccanti e.v., sotalolo e.v. compreso, e verapamil in ogni ramo; l'amiodarone resta, con riserva</small></span></label>
   <label class="chk"><input type="checkbox" id="sca"><span class="tx">Sindrome coronarica acuta o ischemia acuta in corso</span></label>
   <label class="chk"><input type="checkbox" id="asma"><span class="tx">Asma severa</span></label>
   <label class="chk"><input type="checkbox" id="vaso"><span class="tx">Vasospasmo coronarico</span></label>
@@ -343,7 +344,7 @@ html.js.motore-ko #nomotore{display:block}
       <label><input type="radio" name="k" value="basso"><span>basso</span></label>
       <label><input type="radio" name="k" value="alto"><span>alto</span></label>
     </span></div>
-  <label class="chk" style="margin-top:6px;border-top:1px solid var(--border-strong);padding-top:9px"><input type="checkbox" id="valutati"><span class="tx"><b>Ho valutato tutte le condizioni di questo passo</b><small>quelle non segnate sono assenti: senza questa conferma lo strumento non ammette né esclude nessun farmaco</small></span></label>
+  <label class="chk" style="margin-top:6px;border-top:1px solid var(--border-strong);padding-top:9px"><input type="checkbox" id="valutati"><span class="tx"><b>Ho valutato tutte le condizioni di questo passo</b><small>quelle non segnate sono assenti: senza questa conferma lo strumento non ammette nessun farmaco; una condizione segnata esclude comunque</small></span></label>
 </div>
 
 <div class="stage"><span class="stage-n">5</span><span class="stage-t">Il paziente e il rene</span><span class="stage-w">Tab. 8 · p. 4030 · schede tecniche</span></div>
@@ -385,10 +386,10 @@ html.js.motore-ko #nomotore{display:block}
 <div class="card"><h3>Limiti per questo paziente</h3><ul class="lista" id="limiti"></ul></div>
 
 <div class="foot">
-  <strong>Fonte.</strong> Zeppenfeld K, Tfelt-Hansen J, de Riva M, et al. 2022 ESC Guidelines for the management of patients with ventricular arrhythmias and the prevention of sudden cardiac death. <em>Eur Heart J</em> 2022;43:3997–4126, doi:10.1093/eurheartj/ehac262 — cause reversibili (Rec. Table 8, p. 4029), gestione acuta della TV monomorfa sostenuta (§ 6.1.2, pp. 4029–4030; Fig. 9, p. 4029; Fig. 10, p. 4030), tempesta elettrica (p. 4030), raccomandazioni (Rec. Table 9, pp. 4033–4034), farmaci antiaritmici (Tab. 8, pp. 4035–4037, letta sull'immagine delle pagine), lidocaina nella SCA (Rec. Table 22, p. 4046).<br>
-  <strong>Accanto, con il suo anno.</strong> Brugada J, Katritsis DG, Arbelo E, et al. 2019 ESC Guidelines for the management of patients with supraventricular tachycardia. <em>Eur Heart J</em> 2020;41:655–720, doi:10.1093/eurheartj/ehz467 — tachicardie a QRS largo e irregolari (Tab. 6, p. 663; pp. 668, 670, 672–673), FA preeccitata (pp. 690–691).<br>
-  <strong>Dosi accanto alla ESC, con la loro fonte.</strong> Soar J, Böttiger BW, Carli P, et al. European Resuscitation Council Guidelines 2025 Adult Advanced Life Support. <em>Resuscitation</em> 2025;215 Suppl 1:110769 — ICD e piastre, arresto (p. 8), aritmie peri-arresto ed energie (p. 9), Tab. 6 (p. 39). Lenarczyk R, Zeppenfeld K, Tfelt-Hansen J, et al. Management of patients with an electrical storm or clustered ventricular arrhythmias: a clinical consensus statement of the European Heart Rhythm Association of the ESC. <em>Europace</em> 2024;26:euae049 — cardioversione (p. 11, Fig. 3 p. 12), lidocaina nell'ischemia (p. 15), Tab. 8 (pp. 16–17).<br>
-  <strong>Rene, tetti e disponibilità in Italia</strong>: schede tecniche lette per il prontuario del capitolo il 03/10/2026 — amiodarone e.v. (AIFA, due prodotti), flecainide fiale (AIFA), verapamil (AIFA), adenosina (AIFA, tre prodotti), metoprololo (AIFA), esmololo (AIFA), landiololo (AIFA), lidocaina (AIFA, tre prodotti); dove in Italia il farmaco non c'è: procainamide (AEMPS Spagna), ajmalina (BASG Austria e ANSM Francia), sotalolo e.v. (CBG-MEB Paesi Bassi), propranololo e.v. (ANSM Francia). Ogni numero mostrato porta la sua fonte.<br><br>
+  <strong>Fonte.</strong> Zeppenfeld K, Tfelt-Hansen J, de Riva M, et al. 2022 ESC Guidelines for the management of patients with ventricular arrhythmias and the prevention of sudden cardiac death. <em>Eur Heart J</em> 2022;43:3997–4126, doi:10.1093/eurheartj/ehac262 — cause reversibili (Rec. Table 8, p. 4029), gestione acuta della TV monomorfa sostenuta (§ 6.1.2, pp. 4029–4030; Fig. 9, p. 4029; Fig. 10, p. 4030), tempesta elettrica (p. 4030), raccomandazioni (Rec. Table 9, pp. 4033–4034), farmaci antiaritmici (Tab. 8, pp. 4035–4037, letta sull'immagine delle pagine), lidocaina nella SCA (Rec. Table 22, p. 4046), sindrome del QT lungo (Rec. Table 41, p. 4077).<br>
+  <strong>Accanto, con il suo anno.</strong> Brugada J, Katritsis DG, Arbelo E, et al. 2019 ESC Guidelines for the management of patients with supraventricular tachycardia. <em>Eur Heart J</em> 2020;41:655–720, doi:10.1093/eurheartj/ehz467 — tachicardie a QRS largo e irregolari (Tab. 6, p. 663; pp. 668, 670, 672–673), FA preeccitata (pp. 690–691). Page RL, Joglar JA, Caldwell MA, et al. 2015 ACC/AHA/HRS Guideline for the Management of Adult Patients With Supraventricular Tachycardia. <em>Circulation</em> 2016;133:e506–e574, doi:10.1161/CIR.0000000000000311 — precauzioni dei betabloccanti e.v. (Tab. 6, p. e524).<br>
+  <strong>Dosi accanto alla ESC, con la loro fonte.</strong> Soar J, Böttiger BW, Carli P, et al. European Resuscitation Council Guidelines 2025 Adult Advanced Life Support. <em>Resuscitation</em> 2025;215 Suppl 1:110769 — ICD e piastre, arresto (p. 8), aritmie peri-arresto ed energie (p. 9), algoritmo delle tachiaritmie peri-arresto (Fig. 8, p. 37), Tab. 6 (p. 39). Lenarczyk R, Zeppenfeld K, Tfelt-Hansen J, et al. Management of patients with an electrical storm or clustered ventricular arrhythmias: a clinical consensus statement of the European Heart Rhythm Association of the ESC. <em>Europace</em> 2024;26:euae049 — cardioversione (p. 11, Fig. 3 p. 12), lidocaina nell'ischemia (p. 15), Tab. 8 (pp. 16–17).<br>
+  <strong>Rene, tetti e disponibilità in Italia</strong>: schede tecniche lette per il prontuario del capitolo il 03/10/2026 — amiodarone e.v. (AIFA, due prodotti), flecainide fiale (AIFA), verapamil (AIFA), adenosina (AIFA, tre prodotti), metoprololo (AIFA), esmololo (AIFA), landiololo (AIFA), lidocaina (AIFA, tre prodotti); dove in Italia il farmaco non c'è: procainamide (AEMPS Spagna), ajmalina (BASG Austria e ANSM Francia), sotalolo e.v. (CBG-MEB Paesi Bassi), propranololo e.v. (ANSM Francia). Ogni numero mostrato porta la sua fonte. <strong>Ipotensione, scompenso, rene di metoprololo e landiololo</strong>: schede tecniche riscaricate da AIFA l'08/11/2026 — adenosina, verapamil, metoprololo, esmololo, landiololo, propranololo e sotalolo per bocca, amiodarone e.v., flecainide fiale, sezioni 4.2, 4.3, 4.4 e 5.2.<br><br>
   Strumento personale di studio e consultazione: <strong>non sostituisce il giudizio clinico né la scheda tecnica del farmaco</strong>. Non salva i dati e non li invia in rete.
 </div>
 </div>
@@ -475,9 +476,62 @@ html.js.motore-ko #nomotore{display:block}
        30 min nella TV sostenuta; sotalolo e.v. (NL) — 20-120 mg
        (0,5-1,5 mg/kg); propranololo e.v. (FR) — non oltre 10 mg da sveglio,
        1 mg/min; ajmalina (AT) — 1 mg/kg fino a 100 mg; verapamil — 5-10 mg in
-       almeno 2 min. */
+       almeno 2 min.
+     Ipotensione (decisioni del medico del 07/11/2026, scelta 12 del capitolo 15,
+       e dell'08/11/2026, scelta 3: casella «ipot», lo strumento non la gradua).
+       ESC 2022, Tab. 8: procainamide «hypotension» fra le controindicazioni
+       (p. 4036), landiololo «bradycardia, hypotension» (p. 4035); gli altri
+       betabloccanti e il verapamil l'hanno fra gli effetti collaterali (pp. 4035,
+       4037); p. 4030: tutti gli antiaritmici possono darla, il verapamil severa.
+       ERC 2025: p. 9 amiodarone o procainamide dopo la cardioversione fallita;
+       Fig. 8, p. 37, se la procainamide e' controindicata amiodarone; Tab. 6,
+       p. 39, esmololo e landiololo «may be considered» con instabilita'
+       emodinamica, verapamil da evitare con instabilita' emodinamica.
+       ACC/AHA 2015 TSV, Tab. 6, p. e524: ipotensione fra le precauzioni di
+       esmololo, metoprololo e propranololo e.v.
+       Schede tecniche, 4.3: adenosina «ipotensione severa»; verapamil pressione
+       sistolica <90 mmHg, «sono esclusi gli stati ipotensivi secondari ad una
+       diminuzione critica della gittata sistolica dovuta a tachicardia»;
+       metoprololo «ipotensione»; esmololo «grave ipotensione»; landiololo
+       «ipotensione grave»; propranololo per bocca «ipotensione»; amiodarone e.v.
+       «collasso cardiovascolare, ipotensione arteriosa grave», e l'iniezione
+       endovenosa «in caso di ipotensione»; sotalolo per bocca «ipotensione»: il
+       sotalolo e.v. e' un betabloccante e.v. e si esclude (decisione del medico,
+       08/11/2026). Flecainide e ajmalina: la casella non le tocca, la Tab. 8 non
+       ha l'ipotensione fra le loro controindicazioni; flecainide fiale, 4.4: «la
+       grave bradicardia o la marcata ipotensione devono essere corrette prima».
+     ERC 2025, Fig. 8, p. 37, letta sull'immagine: nell'instabile shock
+       sincronizzato «up to 3 attempts», poi amiodarone 300 mg in 10-20 min o
+       procainamide 10-15 mg/kg «(max 1g)» in 20 min, e nuovo shock.
+     Esmololo, scheda tecnica 4.2: mantenimento 50-200 ug/kg/min, si possono usare
+       25; sopra 200 effetto aggiuntivo minimo sulla frequenza e piu' reazioni
+       avverse: la lettura piu' prudente e' partire da 25-50 (EHRA) e fermarsi a 200.
+     Sindrome del QT lungo (scelta 4 del medico, 08/11/2026). Tab. 8: procainamide
+       (p. 4036) e amiodarone (p. 4035) allungano il QT; Rec. Table 41, p. 4077:
+       «avoid QT-prolonging drugs» e «avoid and correct electrolyte
+       abnormalities», I C. ERC 2025, Fig. 8, p. 37: identificare e trattare le
+       cause reversibili, chiedere aiuto a un esperto se l'aritmia o i segni di
+       pericolo persistono.
+     Ricontrollo indipendente (08/11/2026). Adenosina, 4.3: «stati di insufficienza
+       cardiaca non compensata», «broncospasmo (quale asma bronchiale)». Verapamil,
+       4.3: «insufficienza cardiaca manifesta»; 4.4: grave disfunzione epatica, circa
+       il 30% della dose. Metoprololo, 4.2 «non e' necessario alcun aggiustamento», 4.3
+       di una sola scheda «insufficienza renale grave»: grave = ClCr <30, lettura
+       nostra (regola del medico). Landiololo, 4.2 «Non e' richiesta alcuna modifica
+       della dose», 5.2 «lieve o moderata non e' stata valutata», 4.4 M1 e terapia
+       sostitutiva: sotto 60 decide il centro (regola del medico). ERC 2025, Fig. 8,
+       p. 37: «Polymorphic VT with QT prolongation ... Avoid Amiodarone».
+     Decisioni del medico dell'08/11/2026, giro 5 (scelte 15-16, DA-DECIDERE-3, punti
+       1-4, 14, 15): arresto col QT lungo, lo strumento non lo tratta; sotto i 18 anni
+       niente mg; sotalolo e.v. escluso con l'asma severa (sotalolo per bocca, 4.3:
+       «Asma bronchiale o malattie croniche ostruttive dell'apparato respiratorio»);
+       amiodarone con l'ipotensione con riserva; procainamide e casella SCA, lettura
+       dichiarata; amiodarone e.v., 4.3, «Distiroidismi in corso o risolti»; dominio
+       dei campi. */
   var SOGLIE = {
     bmiAgg:30, umol:88.4,
+    grave:30,         // «insufficienza renale grave» senza numero (metoprololo, 4.3): ClCr <30, lettura nostra (regola del medico)
+    irc:60,           // «compromissione renale» senza numero (landiololo, 5.2): ClCr <60, lettura nostra (regola del medico)
     flec:35,          // Tab. 8, p. 4036: CrCl <35 mL/min/1,73 m2 controindicata
     sota:30,          // Tab. 8, p. 4037: CrCl <30 mL/min controindicato
     sotaPiena:60,     // sotalolo e.v. (NL): dosi ripetute >60 piena, 30-60 meta'
@@ -495,7 +549,7 @@ html.js.motore-ko #nomotore{display:block}
     sotaKg:[0.5, 1.5], sotaMax:120,                       // Tab. 8 p. 4037; scheda NL
     veraEsc:[5, 10], veraErc:[0.075, 0.15],               // Tab. 8 p. 4037; ERC p. 39
     metoMax:15,                                           // ERC p. 39; EHRA p. 17 (3 x 5 mg)
-    esmoBolo:0.5, esmoEhra:[25, 50, 250], esmoErc:[50, 300], // EHRA p. 17; ERC p. 39 (ug/kg/min)
+    esmoBolo:0.5, esmoEhra:[25, 50, 250], esmoErc:[50, 300], esmoStop:200, // EHRA p. 17; ERC p. 39; scheda tecnica 4.2 (ug/kg/min)
     landBolo:100, landInf:[10, 40], landMax:80, landGiorno:57.6, landVsr:[1, 10], // Tab. 8 p. 4035; ERC p. 39
     propKg:0.15, propMax:10, prop24:160,                  // EHRA p. 17; scheda FR; Tab. 8 p. 4035
     lidoBolo:[50, 200], lidoKg:[1, 1.5], lidoInfKg:0.02, lidoEhra:[25, 50], // Tab. 8 p. 4036; EHRA pp. 15-16
@@ -510,12 +564,38 @@ html.js.motore-ko #nomotore{display:block}
       H11 = "EHRA 2024, p. 11", H12 = "EHRA 2024, Fig. 3, p. 12", H15 = "EHRA 2024, p. 15",
       H16 = "EHRA 2024, Tab. 8, p. 16", H17 = "EHRA 2024, Tab. 8, p. 17", C44 = "ESC 2023 cardiomiopatie, p. 3544",
       V668 = "ESC 2019 TSV, pp. 668, 673", V672 = "ESC 2019 TSV, p. 672", VIRR = "ESC 2019 TSV, pp. 663, 670, 673",
-      V690 = "ESC 2019 TSV, p. 690", V691 = "ESC 2019 TSV, p. 691";
+      V690 = "ESC 2019 TSV, p. 690", V691 = "ESC 2019 TSV, p. 691",
+      F8 = "ERC 2025, Fig. 8, p. 37", R41 = "ESC 2022, Rec. Table 41, p. 4077", A524 = "ACC/AHA 2015 TSV, Tab. 6, p. e524";
+
+  // Le stesse parole del Tool Flutter e del Tool FA preeccitata, salvo dove il brief
+  // o la fonte di questo strumento chiedono altro.
+  var IPOT_ADE = "<b>Ipotensione</b>: la scheda tecnica controindica l'«ipotensione severa»" + st("adenosina", "4.3") + "; lo strumento non gradua l'ipotensione e la esclude, come i betabloccanti e.v. e la procainamide (scelta del medico, 08/11/2026).";
+  var IPOT_BB = "<b>Ipotensione</b>: fra le precauzioni della ACC/AHA" + pgs(A524) + " e fra le controindicazioni della scheda tecnica (metoprololo «ipotensione», esmololo «grave ipotensione», landiololo «ipotensione grave», propranololo per bocca «ipotensione», 4.3); la Tab. 8 la scrive fra le controindicazioni del landiololo" + pgs(T8a) + "; lo strumento non gradua l'ipotensione e li esclude (scelta del medico, 08/11/2026). A confronto, la ERC 2025 considera esmololo e landiololo anche con instabilità emodinamica" + pgs(E39) + ".";
+  var IPOT_PROCA = "<b>Ipotensione</b>: la ESC 2022 la controindica" + pgs(T8b) + "; lo strumento non gradua l'ipotensione e la esclude, come i betabloccanti e.v. (scelta del medico, 08/11/2026). A confronto, la ERC 2025 la propone dopo una cardioversione fallita" + pgs(E9) + ".";
+  var IPOT_VERA = "<b>Ipotensione</b>: la scheda tecnica lo controindica con pressione sistolica &lt;90 mmHg, esclusi gli stati ipotensivi da caduta critica della gittata dovuta alla tachicardia" + st("verapamil", "4.3") + "; la ESC 2022 avverte che può dare ipotensione severa" + pgs(P30) + ", e la ERC 2025, nella riga del QRS stretto, lo evita con instabilità emodinamica" + pgs(E39) + ". Lo strumento non gradua l'ipotensione, non ne cerca la causa e lo esclude (scelta del medico, 08/11/2026).";
+  var IPOT_SOTA = "<b>Ipotensione</b>: è un betabloccante e.v. La scheda tecnica italiana, per bocca, controindica l'«ipotensione»" + st("sotalolo", "4.3") + ", e la Tab. 8 per gli effetti collaterali rimanda ai betabloccanti" + pgs(T8c + "; " + T8a) + ": lo strumento non gradua l'ipotensione e lo esclude, come gli altri betabloccanti e.v. (scelta del medico, 08/11/2026).";
+  var LAND_DUE = "la scheda tecnica scrive insieme «Non è richiesta alcuna modifica della dose» e «La farmacocinetica in pazienti con compromissione renale lieve o moderata non è stata valutata»; cautela per l'accumulo del metabolita M1, inattivo; nessuna precauzione particolare in terapia sostitutiva" + st("landiololo", "4.2, 4.4, 5.2") + ": <b>decide il centro, con le due frasi</b>";
+  var NO_MG = "sotto i 18 anni le dosi dell'adulto non valgono: lo strumento non calcola i mg";
+  var QTL_LIDO = " La lidocaina, che sull'ECG non ha effetti significativi" + pgs(T8b) + ", resta fuori dalla Fig. 9: la sua scheda qui sotto non è una proposta dello strumento.";
+  var QTL_PROCA = "<b>Sindrome del QT lungo</b>: allunga il QT" + pgs(T8b) + ", e nel QT lungo la ESC 2022 raccomanda di evitare i farmaci che lo allungano " + corPill("I", "C") + pgs(R41) + ": lo strumento la esclude, la lettura più prudente (scelta del medico, 08/11/2026).";
+  var QTL_AMIO = "<b>Sindrome del QT lungo</b>: allunga il QT" + pgs(T8a) + ", e nel QT lungo la ESC 2022 raccomanda di evitare i farmaci che lo allungano " + corPill("I", "C") + pgs(R41) + ": lo strumento lo esclude, la lettura più prudente (scelta del medico, 08/11/2026).";
+  var QTL_SHOCK = "<b>Sindrome del QT lungo, se gli shock non riescono.</b> <b>Non restano</b> amiodarone e procainamide, che la ERC 2025 dà a questo punto" + pgs(E9 + "; " + F8) + ": allungano il QT, e nel QT lungo la ESC 2022 raccomanda di evitare i farmaci che lo allungano " + corPill("I", "C") + pgs(R41) + " (scelta del medico, 08/11/2026). <b>Resta la cardioversione</b>: la ERC 2025 la ripete dopo il farmaco, e senza il farmaco non dice quante volte ancora; restano da cercare e trattare le cause reversibili e da chiedere l'aiuto di un esperto, se l'aritmia o l'instabilità persistono" + pgs(F8) + ", e da correggere gli elettroliti " + corPill("I", "C") + pgs(R41) + ". Un'alternativa ai due farmaci l'algoritmo non la dà, e lo strumento non ne propone una: decide lo specialista.";
 
   /* ═══ FUNZIONI DI SCRITTURA (pure) ════════════════════════════════════ */
   function r1(x) { return Math.round(x * 10) / 10; }
   function r0(x) { return Math.round(x); }
   function nf(x, d) { if (d === 0) x = Math.round(x); else x = r1(x); return String(x).replace(".", ","); }
+  // Una clearance che l'arrotondamento porterebbe proprio su una soglia senza
+  // esserlo si scrive con i decimali che servono: «34,96», non «35» accanto a «<35» (come Tool AAD FA).
+  var SOGLIE_CL = [SOGLIE.procaTerm, SOGLIE.sota, SOGLIE.flec, SOGLIE.sotaPiena];
+  function nfCl(x, intero) {
+    var i, d, q, a = intero ? Math.round(x) : r1(x);
+    for (i = 0; i < SOGLIE_CL.length; i++) if (a === SOGLIE_CL[i] && x !== a) {
+      if (r1(x) !== a) return nf(x);
+      for (d = 2; d < 8; d++) { q = Math.pow(10, d); if (Math.round(x * q) / q !== a) return String(Math.round(x * q) / q).replace(".", ","); }
+    }
+    return nf(x, intero ? 0 : undefined);
+  }
   function pgs(p) { return ' <span class="pg">' + p + "</span>"; }
   function corPill(c, l) { var k = { "I":"c1", "IIa":"c2a", "IIb":"c2b", "III":"c3" }[c]; return '<span class="cor ' + k + '">' + c + "</span>" + (l ? ' <span class="cor ' + k + '" style="opacity:.85">' + l + "</span>" : ""); }
   function st(nome, sez) { return ' <span class="pg">scheda tecnica di ' + nome + (sez ? ", " + sez : "") + "</span>"; }
@@ -533,6 +613,15 @@ html.js.motore-ko #nomotore{display:block}
     }
     if (s.creat < 0.2 || s.creat > 20) return { v:null, fuori:true };
     return { v:s.creat, umol:s.creat * SOGLIE.umol };
+  }
+  // Fuori dal dominio dello strumento: un numero impossibile vale come mancante, e lo si dice (come Tool Flutter).
+  function dominio(s) {
+    var o = [];
+    if (s.eta !== null && (s.eta > SOGLIE.etaMax || s.eta < 0)) o.push("età fuori scala (oltre 110 anni o negativa)");
+    if (s.peso !== null && (s.peso < SOGLIE.pesoMin || s.peso > SOGLIE.pesoMax)) o.push("peso fuori scala (25–250 kg)");
+    if (s.alt !== null && (s.alt < 120 || s.alt > 220)) o.push("altezza fuori scala (120–220 cm)");
+    if (s.qtc !== null && (s.qtc < 300 || s.qtc > 700)) o.push("QTc fuori scala (300–700 ms)");
+    return o;
   }
   function pesoOk(s) { return s.peso !== null && s.peso >= SOGLIE.pesoMin && s.peso <= SOGLIE.pesoMax ? s.peso : null; }
 
@@ -575,11 +664,13 @@ html.js.motore-ko #nomotore{display:block}
     if ((rn.crcl < SOGLIE.sota) !== (rn.agg < SOGLIE.sota)) o.push({ f:"sotalolo", s:"30" });
     else if ((rn.crcl > SOGLIE.sotaPiena) !== (rn.agg > SOGLIE.sotaPiena)) o.push({ f:"sotalolo", s:"60, dose ripetuta" });
     if ((rn.crcl < SOGLIE.procaTerm) !== (rn.agg < SOGLIE.procaTerm)) o.push({ f:"procainamide", s:"15" });
+    if ((rn.crcl < SOGLIE.grave) !== (rn.agg < SOGLIE.grave)) o.push({ f:"metoprololo", s:"30" });
+    if ((rn.crcl < SOGLIE.irc) !== (rn.agg < SOGLIE.irc)) o.push({ f:"landiololo", s:"60" });
     return o;
   }
   function avvisoAgg(rn, chi) {
     var x = incroci(rn), i;
-    for (i = 0; i < x.length; i++) if (x[i].f === chi) return "<b>Peso aggiustato</b>: clearance " + nf(rn.agg) + " mL/min, dall'altra parte della soglia di " + x[i].s + ". Decide il peso reale (decisione del medico, 03/10/2026); la scelta resta clinica.";
+    for (i = 0; i < x.length; i++) if (x[i].f === chi) return "<b>Peso aggiustato</b>: clearance " + nfCl(rn.agg) + " mL/min, dall'altra parte della soglia di " + x[i].s + ". Decide il peso reale (decisione del medico, 03/10/2026); la scelta resta clinica.";
     return "";
   }
 
@@ -597,7 +688,7 @@ html.js.motore-ko #nomotore{display:block}
   function dSota(p) { var a = r0(DOSI.sotaKg[0] * p), b = r0(DOSI.sotaKg[1] * p); return { kg:[a, b], mg:[cap(a, DOSI.sotaMax), cap(b, DOSI.sotaMax)], tetto:b > DOSI.sotaMax }; }
   function dVera(p) { var a = r1(DOSI.veraErc[0] * p), b = r1(DOSI.veraErc[1] * p); return { kg:[a, b], mg:[cap(a, DOSI.veraEsc[1]), cap(b, DOSI.veraEsc[1])], tetto:b > DOSI.veraEsc[1] }; }
   function mgh(ugkgmin, p) { return r1(ugkgmin * p * 60 / 1000); }   // ug/kg/min -> mg/h
-  function dEsmo(p) { return { bolo:r0(DOSI.esmoBolo * p), ehra:[mgh(DOSI.esmoEhra[0], p), mgh(DOSI.esmoEhra[1], p), mgh(DOSI.esmoEhra[2], p)], erc:[mgh(DOSI.esmoErc[0], p), mgh(DOSI.esmoErc[1], p)] }; }
+  function dEsmo(p) { return { bolo:r0(DOSI.esmoBolo * p), ehra:[mgh(DOSI.esmoEhra[0], p), mgh(DOSI.esmoEhra[1], p), mgh(DOSI.esmoEhra[2], p)], erc:[mgh(DOSI.esmoErc[0], p), mgh(DOSI.esmoErc[1], p)], stop:mgh(DOSI.esmoStop, p) }; }
   function dLand(p) { return { bolo:r1(DOSI.landBolo * p / 1000), inf:[mgh(DOSI.landInf[0], p), mgh(DOSI.landInf[1], p)], max:mgh(DOSI.landMax, p), giorno:r0(DOSI.landGiorno * p), vsr:[mgh(DOSI.landVsr[0], p), mgh(DOSI.landVsr[1], p)] }; }
   function dProp(p) { var a = r1(DOSI.propKg * p); return { kg:a, mg:cap(a, DOSI.propMax), tetto:a > DOSI.propMax }; }
   function dLido(p) {
@@ -608,15 +699,35 @@ html.js.motore-ko #nomotore{display:block}
   }
   // Dosi dell'adulto: sotto i 18 anni lo strumento non calcola i mg (come Tool Tempesta).
   function pesoDose(s) { return s.eta !== null && s.eta < SOGLIE.etaMin ? null : pesoOk(s); }
-  function mgNo(s) { return ' — <span class="muted">' + (s.eta !== null && s.eta < SOGLIE.etaMin ? "sotto i 18 anni le dosi dell'adulto non valgono: lo strumento non calcola i mg" : "per i mg serve il peso") + "</span>"; }
+  function mgNo(s) { return ' — <span class="muted">' + (s.eta !== null && s.eta < SOGLIE.etaMin ? NO_MG : "per i mg serve il peso") + "</span>"; }
   /* ═══ LA STRADA DELLA FIG. 9 (pura) ═══════════════════════════════════
      Ruoli dei farmaci: ind (indicato nel ramo, con la classe), erc (nell'
      instabile dopo la cardioversione fallita, ERC 2025), iii (non
      raccomandato), np (non in questo ramo), fuori (fuori dalla Fig. 9),
      manca (manca un ingresso del percorso). */
   var IDS = ["ade", "vera", "bb", "proca", "amio", "flec", "ajm", "sota", "lido"];
+  // La scheda del farmaco lo esclude? Una fonte sola: le funzioni dei farmaci, a ruolo «indicato».
+  function escl(k, s) {
+    var fn = { vera:fVera, bb:fBb, proca:fProca, amio:fAmio, flec:fFlec, ajm:fAjm, sota:fSota };
+    return fn[k](s, rene(s), { r:"ind", c:"", l:"" }, pesoDose(s)).no.length > 0;
+  }
+  // Le stesse condizioni che in fAde() la escludono, con la loro fonte.
+  function adeNo(s) {
+    var c = [], m = [];
+    if (s.preecc) { c.push("pre-eccitazione nota"); m.push("la Tab. 8 la controindica nella FA preeccitata" + pgs(T8a) + ", e la ESC 2019 sulle TSV la considera nel QRS largo solo senza pre-eccitazione sull'ECG a riposo " + corPill("IIa", "C") + pgs(V672)); }
+    if (s.asma) { c.push("asma severa"); m.push("la Tab. 8 la controindica nell'asma severa" + pgs(T8a)); }
+    if (s.nodo && !s.icd) { c.push("disturbi AV severi senza pacemaker"); m.push("le schede tecniche la controindicano nel BAV di II–III grado senza pacemaker" + sts("adenosina")); }
+    if (s.scomp) { c.push("scompenso acuto"); m.push("la scheda tecnica la controindica negli «stati di insufficienza cardiaca non compensata»" + st("adenosina", "4.3")); }
+    if (s.ipot) { c.push("ipotensione"); m.push("la scheda tecnica la controindica nell'«ipotensione severa»" + st("adenosina", "4.3")); }
+    if (s.lqts) { c.push("sindrome del QT lungo"); m.push("la scheda tecnica la controindica nella sindrome del QT lungo" + st("adenosina", "4.3")); }
+    return { chi:c, perche:m };
+  }
+  function elenco(n, g) { return n.length < 2 ? n.join("") : n.slice(0, -1).join(", ") + " " + (g || "o") + " " + n[n.length - 1]; }
   function strada(s) {
-    var o = { gate:null, ramo:"", passi:[], ruoli:{}, barra:["kx", "—"], manca:"" }, i;
+    var o = { gate:null, ramo:"", passi:[], ruoli:{}, barra:["kx", "—"], manca:"", senza:false }, i;
+    var perche = s.ipot ? "dall'ipotensione (passo 4)" : "per questo paziente: la ragione è nella sua scheda";
+    // Sotto i 18 anni niente mg, nemmeno le dosi fisse; l'energia dice «nell'adulto» (DA-DECIDERE-3, punto 1).
+    var min18 = s.eta !== null && s.eta < SOGLIE.etaMin;
     function tutti(r, perche) { for (i = 0; i < IDS.length; i++) o.ruoli[IDS[i]] = { r:r, perche:perche }; }
     function P(t, att) { o.passi.push({ t:t, att:!!att }); }
     function manca(t) { o.gate = "manca"; o.manca = t; for (i = 0; i < IDS.length; i++) if (!o.ruoli[IDS[i]]) o.ruoli[IDS[i]] = { r:"manca", perche:t }; P('<span class="muted">—</span> ' + t + "."); return o; }
@@ -633,7 +744,8 @@ html.js.motore-ko #nomotore{display:block}
     if (s.morf === "poli") {
       o.gate = "fuori"; o.barra = ["k4", "polimorfa: fuori dalla Fig. 9"];
       P("<b>TV polimorfa o torsione di punta</b>: la Fig. 9 tratta la tachicardia regolare a QRS largo" + pgs(F9) + ".", true);
-      P("Senza polso o instabile: defibrillazione e ALS; nell'arresto in FV o TV senza polso, amiodarone 300 mg dopo il 3° shock" + pgs(E8) + ".");
+      P("Senza polso o instabile: defibrillazione e ALS; nell'arresto in FV o TV senza polso, amiodarone " + (min18 ? "" : "300 mg ") + "dopo il 3° shock" + pgs(E8) + (min18 ? "; " + NO_MG : "") + ".");
+      if (s.lqts) P("<b>Con la sindrome del QT lungo</b>: la ERC non nomina il QT nell'arresto" + pgs(E8) + "; nella TV polimorfa con QT allungato dice di evitare l'amiodarone" + pgs(F8) + ", e la ESC 2022 chiede di evitare i farmaci che lo allungano, " + corPill("I", "C") + pgs(R41) + ". Lo strumento non tratta l'arresto: sceglie chi conduce la rianimazione.", true);
       P("Torsione di punta, QT lungo acquisito, TV polimorfa che recidiva: magnesio e potassio, frequenza, eziologia (Rec. Table 9, p. 4034) — <b>Tool Tempesta</b>.");
       tutti("np", "TV polimorfa: fuori dalla Fig. 9"); return o;
     }
@@ -649,6 +761,7 @@ html.js.motore-ko #nomotore{display:block}
       P("<b>Tempesta elettrica</b>: almeno 3 episodi di aritmia ventricolare sostenuta nelle 24 ore" + pgs(P30) + ", o TV incessante.", true);
       if (s.emo === "instab") P("L'episodio in corso, non tollerato: <b>cardioversione elettrica</b> " + corPill("I", "B") + pgs(R9a) + ", o ALS" + pgs(F9) + ".", true);
       P("Sedazione, betabloccante con amiodarone, ablazione, e le loro dosi per peso: <b>Tool Tempesta</b> (Rec. Table 9, p. 4034). La Fig. 9 è del singolo episodio, non della tempesta.");
+      if (s.lqts || s.ipot) P("<b>Le caselle di questo strumento non passano al Tool Tempesta</b>, che nella TV monomorfa non ha né l'ipotensione né il QT lungo: qui " + (s.lqts && s.ipot ? "amiodarone e betabloccanti e.v. sarebbero esclusi" : s.lqts ? "l'amiodarone sarebbe escluso" : "i betabloccanti e.v. sarebbero esclusi") + " (scelta del medico, 08/11/2026): lì " + (s.lqts && !s.ipot ? "va riletto." : "vanno riletti."), true);
       tutti("np", "tempesta elettrica: Tool Tempesta"); return o;
     }
     if (!s.emo) { o.gate = "manca"; o.manca = "serve la tolleranza emodinamica (passo 2)"; tutti("manca", o.manca); return o; }
@@ -657,9 +770,11 @@ html.js.motore-ko #nomotore{display:block}
       o.ramo = "instab"; o.barra = ["k4", "cardioversione subito"];
       P("<b>Cardioversione elettrica sincronizzata subito</b>, prima scelta " + corPill("I", "B") + pgs(R9a) + "; nella figura cardioversione, defibrillazione o ALS, classe I" + pgs(F9) + ".", true);
       P("Se la sincronizzazione non riesce: shock <b>non sincronizzato</b>" + pgs(P29) + ". Senza polso è un arresto: ALS" + pgs(E8) + ".");
-      P("Primo shock sincronizzato a <b>120–150 J</b>, poi a energia crescente se il ritmo sinusale non torna" + pgs(E9) + "; EHRA scrive 120–150 J nel testo" + pgs(H11) + " e 120–200 J bifasici nella figura" + pgs(H12) + ". Il paziente cosciente si seda o si anestetizza, sapendo che l'emodinamica può peggiorare" + pgs(E9) + ".");
+      P("Primo shock sincronizzato" + (min18 ? ", nell'adulto," : "") + " a <b>120–150 J</b>, poi a energia crescente se il ritmo sinusale non torna" + pgs(E9) + ", fino a <b>3 tentativi</b> prima del farmaco" + pgs(F8) + "; EHRA scrive 120–150 J nel testo" + pgs(H11) + " e 120–200 J bifasici nella figura" + pgs(H12) + ". Il paziente cosciente si seda o si anestetizza, sapendo che l'emodinamica può peggiorare" + pgs(E9) + ".");
       if (s.icd) P("Con ICD o pacemaker: piastre a più di 8 cm dal generatore" + pgs(E8) + ".");
-      P("Cardioversione fallita e paziente ancora instabile: <b>amiodarone 300 mg e.v. in 10–20 min</b>, o procainamide 10–15 mg/kg in 20 min, e nuovo shock; poi amiodarone 900 mg nelle 24 h" + pgs(E9) + ". Le dosi per questo peso sono nelle schede di amiodarone e procainamide.");
+      if (s.lqts) P(QTL_SHOCK + QTL_LIDO, true);
+      else if (escl("proca", s)) P(min18 ? "Cardioversione fallita e paziente ancora instabile: <b>amiodarone e.v.</b> e nuovo shock" + pgs(E9) + ". La procainamide, che l'ERC dà in alternativa, è esclusa " + perche + ". Mg: " + NO_MG + "." : "Cardioversione fallita e paziente ancora instabile: <b>amiodarone 300 mg e.v. in 10–20 min</b> e nuovo shock; poi amiodarone 900 mg nelle 24 h" + pgs(E9) + ". La procainamide, che l'ERC dà in alternativa, è esclusa " + perche + ". La dose per questo peso è nella scheda dell'amiodarone.");
+      else P(min18 ? "Cardioversione fallita e paziente ancora instabile: <b>amiodarone e.v.</b>, o procainamide e.v., e nuovo shock" + pgs(E9) + ". Mg: " + NO_MG + "." : "Cardioversione fallita e paziente ancora instabile: <b>amiodarone 300 mg e.v. in 10–20 min</b>, o procainamide 10–15 mg/kg in 20 min, e nuovo shock; poi amiodarone 900 mg nelle 24 h" + pgs(E9) + ". Le dosi per questo peso sono nelle schede di amiodarone e procainamide.");
       P("Dopo: cercare le cause reversibili " + corPill("I", "C") + pgs(R8) + "; con una cardiopatia di base ignota, o che si sospetta progredisca, valutazione completa" + pgs(P30) + ".");
       for (i = 0; i < IDS.length; i++) if (!o.ruoli[IDS[i]]) o.ruoli[IDS[i]] = { r:"np", perche:"non tollerata: la Fig. 9 va alla cardioversione" };
       o.ruoli.amio = { r:"erc" }; o.ruoli.proca = { r:"erc" };
@@ -667,10 +782,11 @@ html.js.motore-ko #nomotore{display:block}
     }
     o.ramo = "stab";
     P("Documentare la tachicardia con l'<b>ECG a 12 derivazioni</b>; anche tollerata va interrotta presto, perché può deteriorarsi in fretta" + pgs(P29) + ".");
-    if (s.tsv === "si" && s.preecc) {
-      // Ricontrollo R0, 07/11/2026: la strada diceva «adenosina» anche con la
-      // pre-eccitazione nota, mentre la scheda del farmaco la esclude.
-      P("TSV probabile, con pre-eccitazione nota: <b>manovre vagali</b>, con l'ECG a 12 derivazioni registrato " + corPill("IIa", "C") + pgs(R9b) + ". <b>L'adenosina no</b>: la Tab. 8 la controindica nella FA preeccitata" + pgs(T8a) + ", e la ESC 2019 sulle TSV la considera nel QRS largo solo senza pre-eccitazione sull'ECG a riposo " + corPill("IIa", "C") + pgs(V672) + ". Se non si ferma, si prosegue. Finché il meccanismo non è chiaro si tratta come una TV, la diagnosi di partenza nel QRS largo" + pgs(V668) + ".", true);
+    var adeVia = adeNo(s);
+    if (s.tsv === "si" && adeVia.chi.length) {
+      // Ricontrollo R0, 07/11/2026, e decisione del medico dell'08/11/2026: la strada non
+      // propone l'adenosina che la scheda del farmaco esclude.
+      P("TSV probabile, con " + elenco(adeVia.chi, "e") + ": <b>manovre vagali</b>, con l'ECG a 12 derivazioni registrato " + corPill("IIa", "C") + pgs(R9b) + ". <b>L'adenosina no</b>: " + adeVia.perche.join("; ") + ". Se non si ferma, si prosegue. Finché il meccanismo non è chiaro si tratta come una TV, la diagnosi di partenza nel QRS largo" + pgs(V668) + ".", true);
       o.ruoli.ade = { r:"ind", c:"IIa", l:"C", src:R9b };
     } else if (s.tsv === "si") {
       P("TSV probabile: <b>adenosina o manovre vagali</b>, con l'ECG a 12 derivazioni registrato " + corPill("IIa", "C") + pgs(R9b) + ". Se l'adenosina la ferma può essere anche una TV idiopatica, da attività triggerata (Fig. 9, nota a)" + pgs(P29) + ". Se non si ferma, si prosegue. Finché il meccanismo non è chiaro si tratta come una TV, la diagnosi di partenza nel QRS largo" + pgs(V668) + ".", true);
@@ -679,10 +795,12 @@ html.js.motore-ko #nomotore{display:block}
       P("TSV non probabile: niente adenosina come primo passo, la Fig. 9 va alla domanda sulla cardiopatia" + pgs(F9) + ".");
       o.ruoli.ade = { r:"np", perche:"TSV non probabile: nella Fig. 9 l'adenosina serve quando la TSV è probabile" };
     } else {
-      P('<span class="muted">—</span> È probabile una TSV? Se sì, adenosina o manovre vagali (IIa C).');
+      P('<span class="muted">—</span> È probabile una TSV? Se sì, ' + (adeVia.chi.length ? "manovre vagali" : "adenosina o manovre vagali") + " (IIa C).");
       o.ruoli.ade = { r:"manca", perche:"serve sapere se è probabile una TSV (passo 3)" };
     }
     var vMai = { r:"iii", c:"III", l:"B", src:R9b };
+    // senza: per la strada non resta nessun farmaco della figura, si va alla cardioversione
+    var senza = false, cvSenza = "<b>Cardioversione elettrica</b>, l'ultimo passo comune a tutti i rami, classe I" + pgs(F9) + ", pesandone il beneficio contro i rischi di anestesia e sedazione (Fig. 9, nota b).";
     if (!s.shd) return manca("serve sapere se c'è una cardiopatia strutturale nota o sospetta (passo 3)");
     if (s.shd === "si") {
       o.ramo = "shd";
@@ -696,23 +814,44 @@ html.js.motore-ko #nomotore{display:block}
         P("Rischio della sedazione basso: <b>cardioversione elettrica</b>, prima scelta anche nella TV tollerata " + corPill("I", "C") + pgs(R9a) + "; nella figura nessun farmaco prima" + pgs(F9) + ".", true);
         o.ruoli.proca = o.ruoli.amio = { r:"np", perche:"rischio della sedazione basso: prima la cardioversione (I C)" };
       } else {
-        o.barra = ["k2", "farmaco e.v., poi cardioversione"];
-        P("Rischio della sedazione alto: un farmaco e.v. — <b>procainamide</b> " + corPill("IIa", "B") + " o <b>amiodarone</b> " + corPill("IIb", "B") + pgs(R9b) + ". In PROCAMIO la procainamide ha fermato più TV, con meno eventi avversi maggiori, dell'amiodarone" + pgs(P30) + ".", true);
+        if (s.lqts) {
+          o.barra = ["k1", "cardioversione"]; senza = true;
+          P("Rischio della sedazione alto, ma con la sindrome del QT lungo non resta nessun farmaco del ramo: procainamide e amiodarone allungano il QT, e nel QT lungo la ESC 2022 raccomanda di evitare i farmaci che lo allungano " + corPill("I", "C") + pgs(R41) + " (scelta del medico, 08/11/2026). " + cvSenza, true);
+        } else if (escl("proca", s)) {
+          o.barra = ["k2", "farmaco e.v., poi cardioversione"];
+          P("Rischio della sedazione alto" + (s.ipot ? ", con ipotensione" : "") + ": <b>amiodarone</b> " + corPill("IIb", "B") + pgs(R9b) + ", che la ERC 2025 dà quando la procainamide è controindicata" + pgs(F8) + ". La procainamide è esclusa " + perche + ".", true);
+        } else {
+          o.barra = ["k2", "farmaco e.v., poi cardioversione"];
+          P("Rischio della sedazione alto: un farmaco e.v. — <b>procainamide</b> " + corPill("IIa", "B") + " o <b>amiodarone</b> " + corPill("IIb", "B") + pgs(R9b) + ". In PROCAMIO la procainamide ha fermato più TV, con meno eventi avversi maggiori, dell'amiodarone" + pgs(P30) + ".", true);
+        }
         o.ruoli.proca = { r:"ind", c:"IIa", l:"B", src:R9b };
         o.ruoli.amio = { r:"ind", c:"IIb", l:"B", src:R9b };
       }
     } else {
       P("<b>Nessuna cardiopatia strutturale</b>: TV idiopatica" + pgs(F9) + ".");
+      if (s.fevs || s.ivs) P("<b>Dati in contraddizione.</b> Al passo 3 nessuna cardiopatia, al passo 4 " + (s.fevs ? "disfunzione ventricolare sinistra severa o FE ridotta" : "ipertrofia ventricolare sinistra significativa") + ": nella Fig. 9 la cardiopatia cambia ramo" + pgs(F9) + ". Ricontrolla il passo 3: la strada qui sotto vale solo se la cardiopatia non c'è.", true);
       if (!s.idio) return manca("serve il tipo di TV idiopatica (passo 3)");
       if (s.idio === "fasc") {
-        o.ramo = "fasc"; o.barra = ["k0", "verapamil e.v."];
-        P("<b>TV fascicolare nota: verapamil e.v.</b> " + corPill("I", "C") + pgs(R9b) + ".", true);
+        o.ramo = "fasc";
+        if (escl("vera", s)) {
+          o.barra = ["k1", "cardioversione"]; senza = true;
+          P("<b>TV fascicolare nota</b>: il farmaco della figura, il verapamil e.v., è escluso " + perche + ". " + cvSenza, true);
+        } else {
+          o.barra = ["k0", "verapamil e.v."];
+          P("<b>TV fascicolare nota: verapamil e.v.</b> " + corPill("I", "C") + pgs(R9b) + ".", true);
+        }
         o.ruoli.vera = { r:"ind", c:"I", l:"C", src:R9b };
         o.ruoli.bb = { r:"np", perche:"TV fascicolare nota: la Fig. 9 dà il verapamil" };
         o.ruoli.proca = o.ruoli.amio = o.ruoli.flec = o.ruoli.ajm = o.ruoli.sota = { r:"np", perche:"TV fascicolare nota: la Fig. 9 dà il verapamil, poi la cardioversione" };
       } else if (s.idio === "rvot") {
-        o.ramo = "rvot"; o.barra = ["k0", "betabloccante e.v."];
-        P("<b>TV del tratto di efflusso nota: betabloccante e.v.</b> " + corPill("I", "C") + pgs(R9b) + "; la Tab. 8 non dà una dose e.v. («various»)" + pgs(T8a) + ": le dosi sono di EHRA ed ERC.", true);
+        o.ramo = "rvot";
+        if (escl("bb", s)) {
+          o.barra = ["k1", "cardioversione"]; senza = true;
+          P("<b>TV del tratto di efflusso nota</b>: il farmaco della figura, il betabloccante e.v., è escluso " + perche + ". " + cvSenza, true);
+        } else {
+          o.barra = ["k0", "betabloccante e.v."];
+          P("<b>TV del tratto di efflusso nota: betabloccante e.v.</b> " + corPill("I", "C") + pgs(R9b) + "; la Tab. 8 non dà una dose e.v. («various»)" + pgs(T8a) + ": le dosi sono di EHRA ed ERC.", true);
+        }
         o.ruoli.bb = { r:"ind", c:"I", l:"C", src:R9b };
         o.ruoli.vera = vMai;
         o.ruoli.proca = o.ruoli.amio = o.ruoli.flec = o.ruoli.ajm = o.ruoli.sota = { r:"np", perche:"TV del tratto di efflusso nota: la Fig. 9 dà il betabloccante, poi la cardioversione" };
@@ -727,8 +866,18 @@ html.js.motore-ko #nomotore{display:block}
           P("Rischio della sedazione basso: <b>cardioversione elettrica</b> " + corPill("I", "C") + pgs(R9a) + "; nella figura nessun farmaco prima" + pgs(F9) + ".", true);
           o.ruoli.proca = o.ruoli.amio = o.ruoli.flec = o.ruoli.ajm = o.ruoli.sota = { r:"np", perche:"rischio della sedazione basso: prima la cardioversione (I C)" };
         } else {
-          o.barra = ["k2", "farmaco e.v., poi cardioversione"];
-          P("Rischio della sedazione alto: un farmaco e.v. — <b>procainamide</b> " + corPill("IIa", "") + " nella figura" + pgs(F9) + "; <b>flecainide, ajmalina o sotalolo</b> " + corPill("IIb", "C") + pgs(R9b) + "; <b>amiodarone</b> " + corPill("IIb", "B") + pgs(R9b) + ", fra gli IIb senza cardiopatia per la scarsa disponibilità degli altri (Fig. 9, nota c).", true);
+          if (s.lqts) {
+            o.barra = ["k1", "cardioversione"]; senza = true;
+            P("Rischio della sedazione alto, ma con la sindrome del QT lungo non resta nessun farmaco del ramo: procainamide e amiodarone allungano il QT, e nel QT lungo la ESC 2022 raccomanda di evitare i farmaci che lo allungano " + corPill("I", "C") + pgs(R41) + " (scelta del medico, 08/11/2026); flecainide, ajmalina e sotalolo la Tab. 8 li controindica" + pgs(T8a + "; p. 4036; p. 4037") + ", la flecainide salvo il tipo 3. " + cvSenza, true);
+          } else {
+            var iiC = [], via = [], prOk = !escl("proca", s);
+            if (!prOk) via.push("procainamide");
+            if (escl("flec", s)) via.push("flecainide"); else iiC.push("flecainide");
+            if (escl("ajm", s)) via.push("ajmalina"); else iiC.push("ajmalina");
+            if (escl("sota", s)) via.push("sotalolo"); else iiC.push("sotalolo");
+            o.barra = ["k2", "farmaco e.v., poi cardioversione"];
+            P("Rischio della sedazione alto" + (s.ipot ? ", con ipotensione" : "") + ": un farmaco e.v. — " + (prOk ? "<b>procainamide</b> " + corPill("IIa", "") + " nella figura" + pgs(F9) + "; " : "") + (iiC.length ? "<b>" + elenco(iiC) + "</b> " + corPill("IIb", "C") + pgs(R9b) + "; " : "") + "<b>amiodarone</b> " + corPill("IIb", "B") + pgs(R9b) + ", fra gli IIb senza cardiopatia per la scarsa disponibilità degli altri (Fig. 9, nota c)." + (via.length ? " Fuori per questo paziente, con la ragione nella scheda: " + via.join(", ") + "." : ""), true);
+          }
           o.ruoli.proca = { r:"ind", c:"IIa", l:"", src:F9 };
           o.ruoli.amio = { r:"ind", c:"IIb", l:"B", src:R9b };
           o.ruoli.flec = { r:"ind", c:"IIb", l:"C", src:R9b };
@@ -737,7 +886,8 @@ html.js.motore-ko #nomotore{display:block}
         }
       }
     }
-    P("Se la TV non si ferma: <b>cardioversione</b>, l'ultimo passo comune a tutti i rami, classe I" + pgs(F9) + ".");
+    o.senza = senza;
+    if (!senza) P("Se la TV non si ferma: <b>cardioversione</b>, l'ultimo passo comune a tutti i rami, classe I" + pgs(F9) + ".");
     if (o.ruoli.vera.r === "iii") P("<b>Niente verapamil e.v.</b> in una tachicardia a QRS largo di meccanismo ignoto " + corPill("III", "B") + pgs(R9b) + ": può dare ipotensione severa" + pgs(P30) + ".");
     if (s.icd) P("Con ICD: l'overdrive pacing manuale può fermare le TV più lente della frequenza di riconoscimento programmata" + pgs(P30) + "; per lo shock esterno, piastre a più di 8 cm dal generatore" + pgs(E8) + ".");
     P("Cercare le cause reversibili " + corPill("I", "C") + pgs(R8) + "; con una cardiopatia di base ignota, o che si sospetta progredisca, valutazione completa" + pgs(P30) + ".");
@@ -759,9 +909,9 @@ html.js.motore-ko #nomotore{display:block}
   function vivo(o) { var r = o.ru.r; return r === "ind" || r === "erc" || r === "fuori"; }
   function riga(fs, ft, qui) { return { fs:fs, ft:ft, qui:!!qui }; }
   function qtNotaA(o, s, nome) {
+    // Con la sindrome del QT lungo i tre farmaci che passano di qui sono esclusi (scelta 4 del medico, 08/11/2026): la «cautela» della nota a non si scrive piu'.
     if (s.qtc !== null && s.qtc > SOGLIE.qtcNotaA) o.ris.push("<b>QTc " + s.qtc + " ms</b>: la nota a della Tab. 8 fa sospendere " + nome + " sopra 500 ms" + pgs(T8n) + "; iniziarlo qui è una scelta clinica.");
-    else if (s.lqts) o.ris.push("<b>QT lungo congenito</b>: con condizioni che allungano il QT, cautela (nota a)" + pgs(T8n) + ".");
-    else if (s.qtc === null) o.note.push("QTc non indicato: la nota a della Tab. 8 lo fa sospendere sopra 500 ms" + pgs(T8n) + ".");
+    else if (s.qtc === null && !s.lqts) o.note.push("QTc non indicato: la nota a della Tab. 8 lo fa sospendere sopra 500 ms" + pgs(T8n) + ".");
   }
 
   function fAde(s, rn, ru) {
@@ -770,13 +920,15 @@ html.js.motore-ko #nomotore{display:block}
       if (!s.valutati) o.manca.push("conferma le condizioni del passo 4");
       if (s.asma) o.no.push("<b>Asma severa</b>: controindicata" + pgs(T8a) + ".");
       if (s.preecc) o.no.push("<b>Pre-eccitazione</b>: la Tab. 8 la controindica nella FA preeccitata" + pgs(T8a) + ", l'ERC la usa solo senza pre-eccitazione nell'ECG a riposo" + pgs(E39) + ".");
+      if (s.scomp) o.no.push("<b>Scompenso acuto</b>: la scheda tecnica la controindica negli «stati di insufficienza cardiaca non compensata»" + st("adenosina", "4.3") + "; la fonte non lo dice.");
+      if (s.ipot) o.no.push(IPOT_ADE);
       if (s.lqts) o.no.push("<b>QT lungo</b>: controindicata" + sts("adenosina") + "; la fonte non lo dice.");
       if (s.nodo && !s.icd) o.no.push("<b>BAV di II–III grado senza pacemaker</b>: controindicata" + sts("adenosina") + "; la fonte non lo dice.");
       else if (s.nodo) o.note.push("Disturbi AV severi con pacemaker: la controindicazione delle schede tecniche è per il BAV di II–III grado <b>senza</b> pacemaker.");
-    } else if (ru.r === "np" && s.morf === "reg" && s.emo === "stab") o.note.push("La Tab. 8 la indica anche nella tachicardia regolare a complessi larghi di origine ignota, per la TV del tratto di efflusso" + pgs(T8a) + ".");
+    } else if (ru.r === "np" && s.morf === "reg" && s.emo === "stab" && !adeNo(s).chi.length) o.note.push("La Tab. 8 la indica anche nella tachicardia regolare a complessi larghi di origine ignota, per la TV del tratto di efflusso" + pgs(T8a) + ".");
     o.righe.push(riga("ESC 2022", "<b>6–18 mg</b> in bolo" + pgs(T8a)));
     o.righe.push(riga("ERC 2025", "<b>6 mg</b>, poi <b>12 mg</b>, poi da considerare <b>18 mg</b>, pesando tollerabilità ed effetti collaterali" + pgs(E39), true));
-    o.righe.push(riga("Scheda tecnica", "3 mg, poi 6, poi 12 mg; dosi più alte non consigliate; bolo rapido seguito da lavaggio" + sts("adenosina") + ": i 18 mg sono delle linee guida, non dell'etichetta."));
+    o.righe.push(riga("Scheda tecnica", "3 mg, poi 6, poi 12 mg; dosi più alte non consigliate; bolo rapido seguito da lavaggio" + sts("adenosina") + ": i 18 mg sono delle linee guida, non dell'etichetta. La 4.3 scrive «broncospasmo (quale asma bronchiale)», senza «grave»" + st("adenosina", "4.3") + "."));
     o.breve = "6 → 12 → 18 mg";
     o.rene = "non serve aggiustarla: né il rene né il fegato la degradano" + st("adenosina", "4.4") + "; la fonte non lo dice.";
     o.it = "Un prodotto in carenza dal 23/12/2025; altri due in commercio (prontuario del capitolo).";
@@ -789,11 +941,12 @@ html.js.motore-ko #nomotore{display:block}
     if (ru.r === "iii") return chiudi(o);
     if (vivo(o)) {
       if (!s.valutati) o.manca.push("conferma le condizioni del passo 4");
+      if (s.ipot) o.no.push(IPOT_VERA);
       if (s.fevs) o.no.push("<b>Scompenso con FE ridotta</b>: controindicato" + pgs(T8c) + ".");
       if (s.nodo) o.no.push("<b>Disturbi severi del nodo del seno o AV</b>: controindicato" + pgs(T8c) + ".");
       if (s.sca) o.no.push("<b>Sindrome coronarica acuta</b>: controindicato" + pgs(T8c) + ".");
       if (s.preecc) o.no.push("<b>Wolff-Parkinson-White</b>: controindicato" + pgs(T8c) + ".");
-      if (s.scomp && !s.fevs) o.ris.push("<b>Scompenso acuto</b>: il verapamil è inotropo negativo e dà ipotensione" + pgs(T8c) + ".");
+      if (s.scomp && !s.fevs) o.no.push("<b>Scompenso acuto</b>: la scheda tecnica controindica l'insufficienza cardiaca manifesta" + st("verapamil", "4.3") + "; è inotropo negativo e dà ipotensione" + pgs(T8c) + ".");
     }
     o.righe.push(riga("ESC 2022", "<b>5–10 mg</b> in bolo lento, ripetibile dopo 30 min" + pgs(T8c)));
     if (p !== null) {
@@ -802,7 +955,7 @@ html.js.motore-ko #nomotore{display:block}
       o.breve = "5–10 mg";
     } else { o.righe.push(riga("ERC 2025", "0,075–0,15 mg/kg in 2 min (in media 5–10 mg), per le tachicardie a QRS stretto" + pgs(E39) + mgNo(s))); o.breve = "5–10 mg"; }
     o.righe.push(riga("Scheda tecnica", "5–10 mg in almeno 2 min, sotto ECG e pressione; non a poche ore da un betabloccante e.v.; controindicato nelle tachicardie a QRS largo" + st("verapamil") + ", dove la fonte lo raccomanda solo nella TV fascicolare nota."));
-    o.rene = "cautela, nessun aggiustamento né soglia: la dose singola e.v. non si potenzia, ma dura di più" + st("verapamil", "4.4") + "; la fonte non lo dice.";
+    o.rene = "cautela, nessun aggiustamento né soglia: la dose singola e.v. non si potenzia, ma dura di più" + st("verapamil", "4.4") + "; la fonte non lo dice. Fegato: nella grave disfunzione circa il 30% della dose usuale, senza una soglia" + st("verapamil", "4.4") + ".";
     o.it = "Il 5 mg/2 ml è l'unico verapamil e.v. in commercio (prontuario del capitolo).";
     o.ctrl.push("ECG e pressione durante l'iniezione" + st("verapamil") + "; ipotensione severa possibile" + pgs(P30) + ".");
     return chiudi(o);
@@ -812,6 +965,7 @@ html.js.motore-ko #nomotore{display:block}
     var o = nuovo(ru), e, l, q;
     if (vivo(o)) {
       if (!s.valutati) o.manca.push("conferma le condizioni del passo 4");
+      if (s.ipot) o.no.push(IPOT_BB);
       if (s.nodo) o.no.push("<b>Disturbi severi del nodo del seno o AV</b>: controindicati" + pgs(T8a) + ".");
       if (s.scomp) o.no.push("<b>Scompenso acuto (scompensato)</b>: controindicati" + pgs(T8a) + ".");
       if (s.vaso) o.no.push("<b>Vasospasmo coronarico</b>: controindicati" + pgs(T8a) + ".");
@@ -821,11 +975,16 @@ html.js.motore-ko #nomotore{display:block}
     }
     o.righe.push(riga("ESC 2022", "betabloccante e.v. senza dose («various»)" + pgs(T8a) + "; per il landiololo e il propranololo la Tab. 8 dà le dosi qui sotto."));
     o.sub = [];
-    var m = [];
-    m.push(riga("EHRA 2024", "<b>2–5 mg ogni 5 min</b>, fino a 3 dosi in 15 min" + pgs(H17), true));
-    m.push(riga("ERC 2025", "2,5–15 mg in boli da 2,5 mg, dove esmololo e landiololo mancano, nella riga delle tachicardie a QRS stretto" + pgs(E39)));
-    m.push(riga("Tetto", "<b>15 mg</b> (ERC; tre dosi da 5 mg in EHRA); fino a 5 mg a 1–2 mg/min ripetibili ogni 5 min, oltre 15 mg raramente serve" + st("metoprololo")));
-    m.push(riga("Rene", "nessun aggiustamento" + st("metoprololo", "4.2") + "; la 4.3 controindica l'«insufficienza renale grave» senza soglia" + dv("la soglia di «grave»") + ". La fonte non lo dice."));
+    var m = [], minore = s.eta !== null && s.eta < SOGLIE.etaMin;
+    var metoNo = rn.dialisi || (rn.crcl !== null && rn.crcl < SOGLIE.grave), landNo = rn.dialisi || (rn.crcl !== null && rn.crcl < SOGLIE.irc);
+    if (metoNo) m.push(riga("Dose", "<b>nessuna dose</b>: " + (rn.dialisi ? "in dialisi" : "ClCr " + nfCl(rn.crcl) + " mL/min") + ", sotto 30 mL/min da non dare (il rene, qui sotto).", true));
+    else if (rn.crcl === null) m.push(riga("Dose", '— <span class="muted">' + (minore ? "sotto i 18 anni le dosi dell'adulto non valgono: lo strumento non calcola i mg" : "serve la clearance: sotto 30 mL/min da non dare") + "</span>", true));
+    else {
+      m.push(riga("EHRA 2024", "<b>2–5 mg ogni 5 min</b>, fino a 3 dosi in 15 min" + pgs(H17), true));
+      m.push(riga("ERC 2025", "2,5–15 mg in boli da 2,5 mg, dove esmololo e landiololo mancano, nella riga delle tachicardie a QRS stretto" + pgs(E39)));
+      m.push(riga("Tetto", "<b>15 mg</b> (ERC; tre dosi da 5 mg in EHRA); fino a 5 mg a 1–2 mg/min ripetibili ogni 5 min, oltre 15 mg raramente serve" + st("metoprololo")));
+    }
+    m.push(riga("Rene", "«non è necessario alcun aggiustamento» (4.2), ma una delle due schede lette mette l'«insufficienza renale grave» fra le controindicazioni (4.3), senza soglia: grave = ClCr &lt;30, lettura nostra; l'altra no" + sts("metoprololo", "4.2, 4.3") + ". La fonte non lo dice." + (avvisoAgg(rn, "metoprololo") ? " " + avvisoAgg(rn, "metoprololo") : "")));
     m.push(riga("In Italia", "1 mg/ml, l'unico metoprololo e.v."));
     o.sub.push({ nome:"Metoprololo", righe:m });
     m = [];
@@ -837,12 +996,14 @@ html.js.motore-ko #nomotore{display:block}
       m.push(riga("EHRA 2024", "0,5 mg/kg in 1 min; poi 25–50 µg/kg/min, fino a 250, titolando ogni 5–10 min" + pgs(H17) + mgNo(s), true));
       m.push(riga("ERC 2025", "500 µg/kg in 1 min, facoltativo; poi 50–300 µg/kg/min" + pgs(E39)));
     }
-    m.push(riga("Tetto", "stesso bolo; EHRA parte da 25–50 e si ferma a <b>250 µg/kg/min</b>, ERC arriva a 300: la lettura più prudente è EHRA; oltre 200 l'effetto in più è minimo" + st("esmololo")));
+    m.push(riga("Tetto", "stesso bolo; EHRA parte da 25–50 e arriva a 250 µg/kg/min, ERC parte da 50 e arriva a 300. La lettura più prudente: partire da 25–50 (EHRA) e fermarsi a <b>200 µg/kg/min</b>" + (p !== null ? " = <b>" + nf(e.stop) + " mg/h</b>" : "") + ": oltre, poco effetto in più e più reazioni avverse" + st("esmololo", "4.2")));
     m.push(riga("Rene", "cautela, senza dose né soglia: il metabolita acido ha un'emivita circa 10 volte più lunga nell'insufficienza renale terminale; rischio di iperkaliemia in dialisi" + st("esmololo", "4.2, 4.4") + dv("quanto ridurre") + ". La fonte non lo dice."));
     m.push(riga("In Italia", "Un prodotto in carenza; altri due in commercio, con indicazioni solo sopraventricolari."));
     o.sub.push({ nome:"Esmololo", righe:m });
     m = [];
-    if (p !== null) {
+    if (landNo) m.push(riga("Dose", "<b>nessuna dose in mg</b>: decide il centro, con le due frasi della scheda tecnica (il rene, qui sotto).", true));
+    else if (rn.crcl === null) m.push(riga("Dose", '— <span class="muted">' + (minore ? "sotto i 18 anni le dosi dell'adulto non valgono: lo strumento non calcola i mg" : "serve la clearance: sotto 60 mL/min decide il centro") + "</span>", true));
+    else if (p !== null) {
       l = dLand(p);
       m.push(riga("ESC 2022", "100 µg/kg in 1 min = <b>" + nf(l.bolo) + " mg</b>; poi 10–40 µg/kg/min = <b>" + nf(l.inf[0]) + "–" + nf(l.inf[1]) + " mg/h</b>; massimo 80 µg/kg/min = " + nf(l.max) + " mg/h; nelle 24 h non oltre 57,6 mg/kg = " + l.giorno + " mg" + pgs(T8a), true));
       m.push(riga("ERC 2025", "carico facoltativo di 100 µg/kg; poi 10–40 µg/kg/min, oppure <b>1–10 µg/kg/min</b> = " + nf(l.vsr[0]) + "–" + nf(l.vsr[1]) + " mg/h con funzione VS ridotta" + pgs(E39)));
@@ -851,7 +1012,7 @@ html.js.motore-ko #nomotore{display:block}
       m.push(riga("ERC 2025", "carico facoltativo di 100 µg/kg; poi 10–40, o 1–10 µg/kg/min con funzione VS ridotta" + pgs(E39)));
     }
     m.push(riga("Scheda tecnica", "carico solo nel paziente stabile; con FEVS &lt;40% si parte da 1 µg/kg/min; poca esperienza oltre le 24 h sopra 10 µg/kg/min" + st("landiololo")));
-    m.push(riga("Rene", "nessuna modifica della dose; cautela, perché un metabolita inattivo si accumula" + st("landiololo", "4.2, 4.4") + ". La fonte non lo dice."));
+    m.push(riga("Rene", (rn.dialisi ? "<b>Dialisi</b>: " + LAND_DUE : rn.crcl === null ? "— sotto 60 mL/min (compromissione renale, lettura nostra) " + LAND_DUE : rn.crcl < SOGLIE.irc ? "<b>ClCr " + nfCl(rn.crcl) + " mL/min</b> (&lt;60, compromissione renale, lettura nostra): " + LAND_DUE : "ClCr " + nfCl(rn.crcl) + " mL/min: da 60 in su nessuna modifica" + st("landiololo", "4.2") + "; la scheda non ha valutato la compromissione «lieve o moderata» (5.2), qui letta sotto 60 (lettura nostra)") + ". La fonte non lo dice. Fegato: a ogni grado, attenta titolazione dalla dose più bassa" + st("landiololo", "4.2") + "." + (avvisoAgg(rn, "landiololo") ? " " + avvisoAgg(rn, "landiololo") : "")));
     m.push(riga("In Italia", "300 mg, con sole indicazioni sopraventricolari."));
     o.sub.push({ nome:"Landiololo", righe:m });
     m = [];
@@ -864,7 +1025,7 @@ html.js.motore-ko #nomotore{display:block}
     m.push(riga("Rene", "prudenza nella dose iniziale, senza numeri" + st("propranololo e.v.", "4.4") + ". La fonte non lo dice."));
     m.push(riga("In Italia", "il propranololo e.v. non c'è, solo compresse." + noIt()));
     o.sub.push({ nome:"Propranololo e.v.", righe:m });
-    o.breve = "metoprololo 2–5 mg ×3; esmololo; landiololo";
+    o.breve = (!metoNo && rn.crcl !== null ? "metoprololo 2–5 mg ×3; " : "") + "esmololo" + (!landNo && rn.crcl !== null ? "; landiololo" : "");
     o.ctrl.push("Frequenza e pressione" + pgs(H17) + ". Mai insieme al verapamil e.v." + sts("metoprololo ed esmololo") + ".");
     return chiudi(o);
   }
@@ -878,12 +1039,14 @@ html.js.motore-ko #nomotore{display:block}
       if (s.brs) o.no.push("<b>Sindrome di Brugada</b>: controindicata" + pgs(T8b) + ".");
       if (s.fevs) o.no.push("<b>Disfunzione VS severa</b>: controindicata" + pgs(T8b) + "; non nello scompenso severo" + pgs(P30) + ".");
       if (s.scomp && !s.fevs) o.no.push("<b>Scompenso acuto</b>: non nello scompenso severo" + pgs(P30) + ".");
-      if (s.sca) o.no.push("<b>Infarto acuto</b>: non si usa" + pgs(P30) + ".");
+      if (s.sca) o.no.push("<b>Infarto acuto</b>: non si usa" + pgs(P30) + ". La fonte dice infarto acuto; la casella comprende anche la SCA senza infarto e l'ischemia acuta, e lo strumento esclude anche quelle, lettura prudente (scelta del medico, 08/11/2026).");
       if (rn.dialisi) o.no.push("<b>Dialisi</b>: nell'insufficienza renale terminale non si usa" + pgs(P30) + ".");
-      else if (rn.crcl !== null && rn.crcl < SOGLIE.procaTerm) o.no.push("<b>ClCr " + nf(rn.crcl) + " mL/min</b>: nell'insufficienza renale terminale non si usa" + pgs(P30) + "; la fonte non dà un numero, lo strumento la riconosce sotto 15 mL/min, lo stadio G5" + dv("la soglia") + ".");
+      else if (rn.crcl !== null && rn.crcl < SOGLIE.procaTerm) o.no.push("<b>ClCr " + nfCl(rn.crcl) + " mL/min</b>: nell'insufficienza renale terminale non si usa" + pgs(P30) + "; la fonte non dà un numero, lo strumento la riconosce sotto 15 mL/min, lo stadio G5" + dv("la soglia") + ".");
       else if (rn.crcl === null) o.manca.push("serve la clearance: nell'insufficienza renale terminale non si usa" + pgs(P30));
-      if (ru.r === "erc") o.ris.push("<b>Ipotensione</b>: la Tab. 8 la controindica" + pgs(T8b) + "; nell'instabile dopo una cardioversione fallita la propone l'ERC, in alternativa all'amiodarone" + pgs(E9) + ".");
-      else o.note.push("Controindicata nell'ipotensione" + pgs(T8b) + ".");
+      if (s.lqts) o.no.push(QTL_PROCA);
+      if (s.ipot) o.no.push(IPOT_PROCA);
+      else if (ru.r === "erc") o.ris.push("<b>Ipotensione</b>: la Tab. 8 la controindica" + pgs(T8b) + "; nell'instabile dopo una cardioversione fallita la propone l'ERC, in alternativa all'amiodarone" + pgs(E9) + ": segna la casella al passo 4 se c'è.");
+      else o.note.push("Controindicata nell'ipotensione" + pgs(T8b) + ": segna la casella al passo 4 se c'è.");
       o.note.push("La tabella EHRA mette fra le cautele l'infarto pregresso e la FEVS ridotta" + pgs(H16) + "; la ESC la raccomanda proprio con cardiopatia nota o sospetta" + (ru.l === "B" ? " (IIa B" + pgs(R9b) + ")" : "") + " e la controindica solo con disfunzione VS severa" + pgs(T8b) + ": la classe resta quella della ESC.");
       qtNotaA(o, s, "la procainamide");
       if (avvisoAgg(rn, "procainamide")) o.note.push(avvisoAgg(rn, "procainamide"));
@@ -891,18 +1054,18 @@ html.js.motore-ko #nomotore{display:block}
     o.righe.push(riga("ESC 2022", "<b>100 mg</b> in bolo, ripetibile dopo 5 min se non ha effetto, fino a <b>500–750 mg</b> (non oltre 50 mg/min); poi 2–6 mg/min" + pgs(T8b), ru.r !== "erc"));
     if (p !== null) {
       d = dProca(p);
-      o.righe.push(riga("ERC 2025", "10–15 mg/kg in 20 min = <b>" + d.erc[0] + "–" + d.erc[1] + " mg</b> per " + nf(p) + " kg" + (d.tettoErc ? "; il tetto della ESC la ferma a <b>" + rng(d.ercT[0], d.ercT[1]) + " mg</b>" : "") + pgs(E9 + "; " + E39), ru.r === "erc"));
+      o.righe.push(riga("ERC 2025", "10–15 mg/kg in 20 min = <b>" + d.erc[0] + "–" + d.erc[1] + " mg</b> per " + nf(p) + " kg" + (d.tettoErc ? "; il tetto della ESC la ferma a <b>" + rng(d.ercT[0], d.ercT[1]) + " mg</b>" : "") + pgs(E9 + "; " + E39) + "; nell'instabile al massimo 1 g" + pgs(F8), ru.r === "erc"));
       o.righe.push(riga("EHRA 2024", "i boli della ESC, oppure 10–17 mg/kg a 20–50 mg/min = " + d.ehra[0] + "–" + d.ehra[1] + " mg, al massimo 500–750 mg" + (d.tettoEhra ? " → <b>" + rng(d.ehraT[0], d.ehraT[1]) + " mg</b>" : "") + "; poi 2–6 mg/min" + pgs(H16)));
-      o.righe.push(riga("Tetto", "<b>750 mg</b>, il limite alto dei 500–750 della ESC e di EHRA" + (d.sopra500 ? "; già la dose più bassa per peso supera i 500 mg, dove comincia la fascia del tetto" : "") + ". L'ERC non scrive un tetto."));
+      o.righe.push(riga("Tetto", "<b>750 mg</b>, il limite alto dei 500–750 della ESC e di EHRA" + (d.sopra500 ? "; già la dose più bassa per peso supera i 500 mg, dove comincia la fascia del tetto" : "") + ". L'ERC scrive al massimo 1 g nella figura, per l'instabile" + pgs(F8) + ", e nessun tetto nel testo né nella tabella: lo strumento tiene i 750 mg, la lettura più prudente."));
       o.breve = (ru.r === "erc" ? rng(d.ercT[0], d.ercT[1]) + " mg in 20 min" : "100 mg ogni 5 min, fino a 500–750 mg");
     } else {
-      o.righe.push(riga("ERC 2025", "10–15 mg/kg in 20 min" + pgs(E9 + "; " + E39) + mgNo(s), ru.r === "erc"));
+      o.righe.push(riga("ERC 2025", "10–15 mg/kg in 20 min" + pgs(E9 + "; " + E39) + "; nell'instabile al massimo 1 g" + pgs(F8) + mgNo(s), ru.r === "erc"));
       o.righe.push(riga("EHRA 2024", "i boli della ESC, oppure 10–17 mg/kg a 20–50 mg/min, al massimo 500–750 mg; poi 2–6 mg/min" + pgs(H16)));
       o.breve = "100 mg ogni 5 min, fino a 500–750 mg";
     }
     o.righe.push(riga("Scheda tecnica", "0,2–1,0 g e.v. a non più di 100 mg/min, ripetibile dopo 4–6 ore, senza infusione: una velocità doppia del massimo di ESC ed EHRA; con l'amiodarone, procainamide ridotta del 20–33%" + st("procainamide, Spagna")));
     if (rn.dialisi || (rn.crcl !== null && rn.crcl < SOGLIE.procaTerm)) o.rene = "insufficienza renale terminale: non si usa" + pgs(P30) + ".";
-    else if (rn.crcl !== null) o.rene = "ClCr " + nf(rn.crcl) + " mL/min: la fonte la esclude solo nell'insufficienza renale terminale" + pgs(P30) + "; metabolismo epatico e renale" + pgs(H16) + "; con le dosi convenzionali si accumula se la dose non si adatta al singolo paziente, senza soglia, e si rimuove con l'emodialisi" + st("procainamide") + dv("la dose per fascia di clearance") + ".";
+    else if (rn.crcl !== null) o.rene = "ClCr " + nfCl(rn.crcl) + " mL/min: la fonte la esclude solo nell'insufficienza renale terminale" + pgs(P30) + "; metabolismo epatico e renale" + pgs(H16) + "; con le dosi convenzionali si accumula se la dose non si adatta al singolo paziente, senza soglia, e si rimuove con l'emodialisi" + st("procainamide") + dv("la dose per fascia di clearance") + ".";
     else o.rene = "— serve la clearance: nell'insufficienza renale terminale non si usa" + pgs(P30) + ".";
     o.it = "non c'è: nessun medicinale nella Banca dati AIFA; la fonte stessa avverte che manca in molti paesi europei" + pgs(P30) + "." + noIt();
     o.ctrl.push("ECG (durata del QRS e QT) e pressione" + pgs(H16) + ".");
@@ -914,9 +1077,11 @@ html.js.motore-ko #nomotore{display:block}
     if (vivo(o)) {
       if (!s.valutati) o.manca.push("conferma le condizioni del passo 4");
       if (s.nodo) o.ris.push("<b>Disturbi del nodo del seno o AV severi</b>: fra le precauzioni" + pgs(T8a) + ".");
-      if (s.tiro) o.ris.push("<b>Ipertiroidismo</b>: fra le precauzioni" + pgs(T8a) + ".");
+      if (s.tiro) o.ris.push("<b>Ipertiroidismo</b>: fra le precauzioni" + pgs(T8a) + "; la scheda e.v. controindica i «distiroidismi in corso o risolti»" + st("amiodarone e.v.", "4.3") + ". L'esito resta quello della Tab. 8: la scelta è clinica.");
+      if (s.lqts) o.no.push(QTL_AMIO);
       qtNotaA(o, s, "l'amiodarone");
-      if (s.fevs || s.scomp) o.note.push("Si può usare nello scompenso" + pgs(T8a) + "; l'iniezione e.v. diretta no — è controindicata nell'ipotensione, nella cardiomiopatia e nello scompenso, l'infusione no" + sts("amiodarone e.v.") + ".");
+      if (s.ipot) o.ris.push("<b>Ipotensione</b>: non si esclude. La scheda tecnica controindica l'iniezione e.v. diretta nell'ipotensione, ogni via e.v. nell'ipotensione arteriosa grave e nel collasso cardiovascolare (4.3), e chiede cautela nell'ipotensione (4.4)" + st("amiodarone e.v.") + "; lo strumento non gradua l'ipotensione: decide il medico." + (ru.r === "erc" ? " Nell'instabile, dopo una cardioversione fallita, è il farmaco che resta" + pgs(E9) + "." : " Se l'ipotensione è instabilità, la strada è la cardioversione" + pgs(F9) + "."));
+      if (s.fevs || s.scomp) o.note.push("Si può usare nello scompenso" + pgs(T8a) + "; l'iniezione e.v. diretta no: la scheda tecnica la controindica nell'ipotensione, nella miocardiopatia e nell'insufficienza cardiaca, e ogni via e.v. nell'ipotensione arteriosa grave e nel collasso cardiovascolare" + st("amiodarone e.v.", "4.3") + ".");
       if (ru.r === "ind" && o.ru.l === "B" && s.idio === "altro") o.note.push("Nella Fig. 9 sta fra gli IIb senza cardiopatia per la scarsa disponibilità degli altri antiaritmici (nota c)" + pgs(F9) + ".");
     }
     o.righe.push(riga("ESC 2022", "<b>5 mg/kg</b> in 20 min–2 h, ripetibile 2–3 volte nelle 24 h; poi 600–1200 mg/24 h per 8–10 giorni" + pgs(T8a), ru.r !== "erc"));
@@ -948,8 +1113,9 @@ html.js.motore-ko #nomotore{display:block}
       if (s.fevs || s.scomp) o.no.push("<b>Disfunzione VS o scompenso</b>: la cardiopatia strutturale significativa è fra le controindicazioni" + pgs(T8b) + ", e lo scompenso per la scheda tecnica" + st("flecainide") + ".");
       if (s.sca) o.no.push("<b>Infarto</b>: controindicata dopo un infarto" + pgs(T8b) + ".");
       if (rn.dialisi) o.no.push("<b>Dialisi</b>: insufficienza renale grave, controindicata" + pgs(T8b) + ".");
-      else if (rn.crcl !== null && rn.crcl < SOGLIE.flec) o.no.push("<b>ClCr " + nf(rn.crcl) + " mL/min</b> (&lt;35): controindicata" + pgs(T8b) + "; la scheda tecnica la usa ancora, a dose dimezzata con i livelli plasmatici" + st("flecainide fiale", "4.2") + ": vale la fonte, la lettura più prudente.");
+      else if (rn.crcl !== null && rn.crcl < SOGLIE.flec) o.no.push("<b>ClCr " + nfCl(rn.crcl) + " mL/min</b> (&lt;35): controindicata" + pgs(T8b) + "; la scheda tecnica la usa ancora, a dose dimezzata con i livelli plasmatici" + st("flecainide fiale", "4.2") + ": vale la fonte, la lettura più prudente.");
       else if (rn.crcl === null) o.manca.push("serve la clearance: sotto 35 è controindicata" + pgs(T8b));
+      if (s.ipot) o.note.push("<b>Ipotensione</b>: la casella non la esclude, la Tab. 8 non la nomina fra le controindicazioni" + pgs(T8b) + "; la scheda tecnica chiede di correggere la marcata ipotensione prima di usarla" + st("flecainide fiale", "4.4") + ".");
       qtNotaA(o, s, "la flecainide");
       if (avvisoAgg(rn, "flecainide")) o.note.push(avvisoAgg(rn, "flecainide"));
     }
@@ -966,7 +1132,7 @@ html.js.motore-ko #nomotore{display:block}
     o.righe.push(riga("Scheda tecnica", "bolo al massimo <b>150 mg</b>, non oltre 600 mg nelle prime 24 h; in non meno di 10 min, <b>30 min nella TV sostenuta</b> o con scompenso" + st("flecainide fiale", "4.2")));
     if (rn.dialisi) o.rene = "dialisi: controindicata" + pgs(T8b) + ".";
     else if (rn.crcl !== null && dimezza) o.rene = "ClCr 35 mL/min: la fonte la esclude solo sotto 35" + pgs(T8b) + ", e con ClCr ≤35 la scheda tecnica dimezza ogni dose e.v. e chiede i livelli plasmatici" + st("flecainide fiale", "4.2") + ": <b>dose dimezzata</b>.";
-    else if (rn.crcl !== null) o.rene = "ClCr " + nf(rn.crcl) + " mL/min: " + (rn.crcl < SOGLIE.flec ? "sotto 35, controindicata" : "non sotto 35, nessun aggiustamento nella fonte") + pgs(T8b) + ". La soglia è scritta in mL/min/1,73 m², l'unità dell'eGFR; con ClCr ≤35 la scheda tecnica dimezza ogni dose e.v." + st("flecainide fiale", "4.2") + ".";
+    else if (rn.crcl !== null) o.rene = "ClCr " + nfCl(rn.crcl) + " mL/min: " + (rn.crcl < SOGLIE.flec ? "sotto 35, controindicata" : "non sotto 35, nessun aggiustamento nella fonte") + pgs(T8b) + ". La soglia è scritta in mL/min/1,73 m², l'unità dell'eGFR; con ClCr ≤35 la scheda tecnica dimezza ogni dose e.v." + st("flecainide fiale", "4.2") + ".";
     else o.rene = "— serve la clearance: sotto 35 è controindicata" + pgs(T8b) + ".";
     o.it = "Flecainide 150 mg/15 ml fiale, uso ospedaliero (prontuario del capitolo).";
     o.ctrl.push("Sospendere se il QRS si allarga oltre il 25% o compare un blocco di branca" + pgs(T8b) + ".");
@@ -1004,6 +1170,8 @@ html.js.motore-ko #nomotore{display:block}
     o.estero = true;
     if (vivo(o)) {
       if (!s.valutati) o.manca.push("conferma le condizioni del passo 4");
+      if (s.ipot) o.no.push(IPOT_SOTA);
+      if (s.asma) o.no.push("<b>Asma severa</b>: è un betabloccante e.v. La scheda tecnica italiana, per bocca, controindica l'«asma bronchiale o malattie croniche ostruttive dell'apparato respiratorio»" + st("sotalolo", "4.3") + "; la Tab. 8 non la nomina fra le controindicazioni del sotalolo" + pgs(T8c) + ", e la scheda e.v. estera non è stata riletta per questo: lo strumento lo esclude, come gli altri betabloccanti e.v. (scelta del medico, 08/11/2026).");
       if (s.nodo) o.no.push("<b>Disturbi severi del nodo del seno o AV</b>: controindicato" + pgs(T8c) + ".");
       if (s.fevs) o.no.push("<b>Scompenso severo con FE ridotta</b>: controindicato" + pgs(T8c) + ".");
       if (s.scomp && !s.fevs) o.no.push("<b>Scompenso acuto</b>: la Tab. 8 lo controindica nello scompenso severo con FE ridotta" + pgs(T8c) + "; lettura prudente: escluso.");
@@ -1016,7 +1184,7 @@ html.js.motore-ko #nomotore{display:block}
       if (s.k === "basso") o.ris.push("<b>Potassio basso</b>: l'ipokaliemia è fra le precauzioni" + pgs(T8c) + "; correggerla prima.");
       else if (!s.k) o.manca.push("serve il potassio: l'ipokaliemia è fra le precauzioni" + pgs(T8c));
       if (rn.dialisi) o.no.push("<b>Dialisi</b>: con ClCr &lt;30 mL/min è controindicato" + pgs(T8c) + ".");
-      else if (rn.crcl !== null && rn.crcl < SOGLIE.sota) o.no.push("<b>ClCr " + nf(rn.crcl) + " mL/min</b> (&lt;30): controindicato" + pgs(T8c) + "; l'etichetta olandese, per le dosi ripetute, darebbe un quarto della dose fra 10 e 30: vale la fonte.");
+      else if (rn.crcl !== null && rn.crcl < SOGLIE.sota) o.no.push("<b>ClCr " + nfCl(rn.crcl) + " mL/min</b> (&lt;30): controindicato" + pgs(T8c) + "; l'etichetta olandese, per le dosi ripetute, darebbe un quarto della dose fra 10 e 30: vale la fonte.");
       else if (rn.crcl === null) o.manca.push("serve la clearance: sotto 30 mL/min è controindicato" + pgs(T8c));
       if (avvisoAgg(rn, "sotalolo")) o.note.push(avvisoAgg(rn, "sotalolo"));
     }
@@ -1029,7 +1197,7 @@ html.js.motore-ko #nomotore{display:block}
     o.righe.push(riga("ERC · EHRA", "nessuna dose del sotalolo e.v. in queste due fonti."));
     o.righe.push(riga("Scheda tecnica", "20–120 mg (0,5–1,5 mg/kg) in 10 min, guidati dalla frequenza, ripetibili dopo 6 ore; dosi ripetute: ClCr &gt;60 piena, 30–60 metà, 10–30 un quarto, &lt;10 evitare; controindica gli altri antiaritmici di classe III, amiodarone compreso, e la bradicardia &lt;50/min" + st("sotalolo e.v., Paesi Bassi")));
     if (rn.dialisi) o.rene = "dialisi: controindicato" + pgs(T8c) + ".";
-    else if (rn.crcl !== null) o.rene = "ClCr " + nf(rn.crcl) + " mL/min: " + (rn.crcl < SOGLIE.sota ? "sotto 30, controindicato" + pgs(T8c) : "non sotto 30, ammesso, con QT e clearance sorvegliati" + pgs(T8c) + "; " + rip + st("sotalolo e.v.")) + ".";
+    else if (rn.crcl !== null) o.rene = "ClCr " + nfCl(rn.crcl) + " mL/min: " + (rn.crcl < SOGLIE.sota ? "sotto 30, controindicato" + pgs(T8c) : "non sotto 30, ammesso, con QT e clearance sorvegliati" + pgs(T8c) + "; " + rip + st("sotalolo e.v.")) + ".";
     else o.rene = "— serve la clearance: sotto 30 mL/min controindicato" + pgs(T8c) + ".";
     o.it = "il sotalolo e.v. non c'è, solo compresse." + noIt();
     o.ctrl.push("QT e clearance da sorvegliare: torsioni di punta in più del 2%" + pgs(T8c) + "; QRS o QT oltre +25%: rivalutare" + st("sotalolo e.v.") + ".");
@@ -1043,6 +1211,7 @@ html.js.motore-ko #nomotore{display:block}
       if (s.nodo && !s.icd) o.ris.push("<b>Disturbi severi del nodo del seno o AV senza pacemaker</b>: cautela" + pgs(H16) + ".");
       if (s.scomp || s.fevs || s.emo === "instab") o.note.push("Dose ridotta quando il flusso epatico è ridotto: shock, betabloccante, scompenso severo" + pgs(T8b) + ".");
       if (s.k === "basso") o.note.push("Potassio basso: la lidocaina è più efficace con un potassio alto" + pgs(T8b) + ".");
+      if (s.lqts && s.emo === "instab") o.note.push("<b>Sindrome del QT lungo, se gli shock non riescono</b>: resta fuori dalla Fig. 9, come in ogni altro caso: sull'ECG non ha effetti significativi" + pgs(T8b) + ", ma l'algoritmo non la dà al posto di amiodarone e procainamide" + pgs(E9 + "; " + F8) + ", e lo strumento non la propone: decide lo specialista.");
       if (s.sca) o.note.push("Ischemia acuta: è il suo contesto — EHRA la considera utile nell'ischemia acuta" + pgs(H15) + ", e la ESC le dà la IIb C nella TV polimorfa o FV ricorrente della SCA" + pgs(R22) + ".");
     }
     o.righe.push(riga("ESC 2022", "<b>50–200 mg</b> in bolo, poi <b>2–4 mg/min</b>; indicazione: TV/FV associata alla SCA" + pgs(T8b), true));
@@ -1062,12 +1231,26 @@ html.js.motore-ko #nomotore{display:block}
     return chiudi(o);
   }
 
+  // Sotto i 18 anni: via ogni riga di dose, anche fissa; restano esito, classe, rene, disponibilita' (DA-DECIDERE-3, punto 1).
+  function senzaMg(o) {
+    var i, j, x;
+    o.righe = [riga("Dose", '— <span class="muted">' + NO_MG + "</span>", true)];
+    if (o.sub) for (i = 0; i < o.sub.length; i++) {
+      x = [];
+      for (j = 0; j < o.sub[i].righe.length; j++) if (o.sub[i].righe[j].fs === "Rene" || o.sub[i].righe[j].fs === "In Italia") x.push(o.sub[i].righe[j]);
+      o.sub[i].righe = x;
+    }
+    o.breve = "—";
+    return o;
+  }
   function farmaci(s, rn, sd) {
-    var p = pesoDose(s), r = sd.ruoli;
-    return {
+    var p = pesoDose(s), r = sd.ruoli, k;
+    var f = {
       ade:fAde(s, rn, r.ade), vera:fVera(s, rn, r.vera, p), bb:fBb(s, rn, r.bb, p), proca:fProca(s, rn, r.proca, p),
       amio:fAmio(s, rn, r.amio, p), flec:fFlec(s, rn, r.flec, p), ajm:fAjm(s, rn, r.ajm, p), sota:fSota(s, rn, r.sota, p), lido:fLido(s, rn, r.lido, p)
     };
+    if (s.eta !== null && s.eta < SOGLIE.etaMin) for (k in f) senzaMg(f[k]);
+    return f;
   }
   /* ═══ STATO E DISEGNO ═════════════════════════════════════════════════ */
   function el(id) { return document.getElementById(id); }
@@ -1080,9 +1263,13 @@ html.js.motore-ko #nomotore{display:block}
   function righe(r) { var h = "", i; for (i = 0; i < r.length; i++) h += '<div class="fr' + (r[i].qui ? " qui" : "") + '"><span class="fs">' + r[i].fs + '</span><span class="ft">' + r[i].ft + "</span></div>"; return h; }
 
   function S() {
-    var ids = ["tempesta", "icd", "nodo", "ivc", "brs", "lqts", "fevs", "ivs", "scomp", "sca", "asma", "vaso", "tiro", "preecc", "valutati", "dialisi"], s = {}, i;
+    var ids = ["tempesta", "icd", "nodo", "ivc", "brs", "lqts", "fevs", "ivs", "scomp", "ipot", "sca", "asma", "vaso", "tiro", "preecc", "valutati", "dialisi"], s = {}, i;
     for (i = 0; i < ids.length; i++) s[ids[i]] = ckv(ids[i]);
     s.eta = num("eta"); s.peso = num("peso"); s.alt = num("alt"); s.creat = num("creat"); s.qtc = num("qtc");
+    s.fuori = dominio(s);
+    if (s.eta !== null && s.eta < 0) s.eta = null;
+    if (s.alt !== null && (s.alt < 120 || s.alt > 220)) s.alt = null;
+    if (s.qtc !== null && (s.qtc < 300 || s.qtc > 700)) s.qtc = null;
     s.morf = radio("morf"); s.emo = radio("emo"); s.tsv = radio("tsv"); s.shd = radio("shd");
     s.idio = s.shd === "no" ? radio("idio") : "";
     s.risc = (s.shd === "si" || s.idio === "altro") ? radio("risc") : "";
@@ -1135,13 +1322,14 @@ html.js.motore-ko #nomotore{display:block}
     /* rene */
     var hr = "", cl = rn.cl, inc = incroci(rn);
     if (cl.clcr !== null) {
-      hr += '<div class="esito"><span class="big">Clearance ' + nf(cl.clcr) + " mL/min</span>" + chip(cl.clcr < 30 ? "k4" : (cl.clcr <= 60 ? "k3" : "k1"), "Cockcroft-Gault, peso reale " + nf(p) + " kg") + "</div>";
+      hr += '<div class="esito"><span class="big">Clearance ' + nfCl(cl.clcr) + " mL/min</span>" + chip(cl.clcr < 30 ? "k4" : (cl.clcr <= 60 ? "k3" : "k1"), "Cockcroft-Gault, peso reale " + nf(p) + " kg") + "</div>";
       hr += '<div class="muted" style="font-size:12.5px;margin-bottom:4px">Creatinina ' + cl.mg.toFixed(2).replace(".", ",") + " mg/dL = " + nf(cl.umol, 0) + " µmol/L (1 mg/dL = 88,4 µmol/L)" + (cl.bmi !== null ? " · BMI " + nf(cl.bmi) : "") + "</div>";
-      if (cl.agg !== null) hr += '<div class="esito">' + chip("kx", "peso aggiustato " + nf(cl.pesoAgg, 0) + " kg: clearance " + nf(cl.agg)) + '<span class="muted">accanto, non decide (ideale di Devine ' + nf(cl.ibw, 0) + " kg + 0,4 × l'eccesso)</span></div>";
+      if (cl.agg !== null) hr += '<div class="esito">' + chip("kx", "peso aggiustato " + nf(cl.pesoAgg, 0) + " kg: clearance " + nfCl(cl.agg)) + '<span class="muted">accanto, non decide (ideale di Devine ' + nf(cl.ibw, 0) + " kg + 0,4 × l'eccesso)</span></div>";
       if (inc.length) { var tx = []; for (i = 0; i < inc.length; i++) tx.push(inc[i].f + " (soglia " + inc[i].s + ")"); hr += nota("", "<b>Ai lati di una soglia</b>: peso reale e peso aggiustato cadono ai lati opposti per " + tx.join("; ") + ". Decide il peso reale (decisione del medico, 03/10/2026); la scelta resta clinica."); }
-      hr += '<div class="muted" style="font-size:12.5px">Le soglie che contano qui: flecainide 35, sotalolo 30 (e 60 per la dose ripetuta), procainamide nell\'insufficienza renale terminale.</div>';
+      hr += '<div class="muted" style="font-size:12.5px">Le soglie che contano qui: flecainide 35, sotalolo 30 (e 60 per la dose ripetuta), metoprololo 30, landiololo 60, procainamide nell\'insufficienza renale terminale.</div>';
     } else hr += '<div class="esito">' + chip("kx", "clearance —") + '<span class="muted">mancano: ' + cl.manca.join(", ") + "</span></div>";
-    if (rn.dialisi) hr += '<div class="esito">' + chip("k4", "dialisi") + '<span class="muted">esclude procainamide, flecainide e sotalolo</span></div>';
+    if (rn.dialisi) hr += '<div class="esito">' + chip("k4", "dialisi") + '<span class="muted">esclude procainamide, flecainide, sotalolo e metoprololo; landiololo: decide il centro</span></div>';
+    if (s.fuori.length) hr += nota("stop", "Fuori dal dominio dello strumento, e quindi non usato: " + s.fuori.join("; ") + ".");
     el("outRene").innerHTML = hr;
 
     /* strada */
@@ -1159,7 +1347,7 @@ html.js.motore-ko #nomotore{display:block}
     if (sd.gate === "fuori" || sd.gate === "tempesta") hf += '<div class="esito">' + chip("kx", "farmaci —") + '<span class="muted">' + (sd.gate === "tempesta" ? "la tempesta è di Tool Tempesta" : "fuori dalla Fig. 9: nessun farmaco di questo strumento") + "</span></div>";
     else if (sd.gate === "manca" && !sd.passi.length) hf += '<div class="esito">' + chip("kx", "farmaci —") + '<span class="muted">' + sd.manca + "</span></div>";
     else {
-      if (!s.valutati) hf += nota("info", "<b>Condizioni del passo 4 da confermare</b>: senza la conferma lo strumento non ammette né esclude nessun farmaco.");
+      if (!s.valutati) hf += nota("info", "<b>Condizioni del passo 4 da confermare</b>: senza la conferma lo strumento non ammette nessun farmaco; una condizione segnata esclude comunque.");
       for (i = 0; i < IDS.length; i++) {
         k = IDS[i];
         var o = f[k], c = CHIP[o.stato];
@@ -1169,8 +1357,8 @@ html.js.motore-ko #nomotore{display:block}
         hf += '<div class="sint"><span class="n">' + NOMI[k] + "</span>" + chip(c[0], c[1]) + corDi(o) + (o.estero ? noIt() : "") + (mostraDose(o) && o.breve ? '<span class="d">' + o.breve + "</span>" : "") + "</div>";
       }
       if (!vivi) hf += passo("Nessun farmaco in questo ramo.");
-      if (sd.ramo === "shd" && s.risc === "alto" && f.proca.stato !== "manca" && f.amio.stato !== "manca") hf += nota("info", "In Italia la procainamide non c'è: nel ramo con cardiopatia il farmaco che resta è l'<b>amiodarone</b> " + corPill("IIb", "B") + pgs(R9b) + ".");
-      if (sd.ramo === "altro" && s.risc === "alto" && s.valutati) hf += nota("info", "In Italia ci sono, di questo ramo, solo la <b>flecainide</b> e l'<b>amiodarone</b>: procainamide, ajmalina e sotalolo e.v. no.");
+      if (sd.ramo === "shd" && s.risc === "alto" && f.proca.stato !== "manca" && f.amio.stato !== "manca" && !s.lqts) hf += nota("info", "In Italia la procainamide non c'è: nel ramo con cardiopatia il farmaco che resta è l'<b>amiodarone</b> " + corPill("IIb", "B") + pgs(R9b) + ".");
+      if (sd.ramo === "altro" && s.risc === "alto" && s.valutati && !s.lqts) hf += nota("info", f.flec.stato === "no" ? "In Italia ci sono, di questo ramo, solo la flecainide, qui esclusa, e l'<b>amiodarone</b>: procainamide, ajmalina e sotalolo e.v. no." : "In Italia ci sono, di questo ramo, solo la <b>flecainide</b> e l'<b>amiodarone</b>: procainamide, ajmalina e sotalolo e.v. no.");
     }
     el("outSint").innerHTML = hf;
     for (i = 0; i < IDS.length; i++) {
@@ -1182,40 +1370,48 @@ html.js.motore-ko #nomotore{display:block}
 
     /* confronti */
     function inc2(tocca, x) { return nota(tocca ? "" : "spenta", (tocca ? "<b>Tocca questo caso.</b> " : "") + x); }
+    var min18 = s.eta !== null && s.eta < SOGLIE.etaMin;
+    function incD(tocca, x) { return min18 ? "" : inc2(tocca, x); }
     function viv(id) { var st = f[id].stato; return st === "ok" || st === "ris" || st === "erc"; }
     el("outConf").innerHTML =
-      inc2(viv("amio") || (viv("bb") && sd.ramo === "rvot"), "<b>FA, ESC 2024</b> (distillato, sezione 4; scheda 10, sezione 8, Tab. 12). Per il controllo della frequenza nella FA l'amiodarone e.v. è 300 mg in 30–60 min, preferibilmente da vena centrale, poi 900–1200 mg nelle 24 h; qui, Tab. 8 ESC 2022, 5 mg/kg in 20 min–2 h, 2–3 volte, poi 600–1200 mg/24 h per 8–10 giorni. Il landiololo della FA ha il bolo facoltativo e 1–10 µg/kg/min nel critico, senza il tetto di 80 µg/kg/min della 2022; l'esmololo della FA è 500 µg/kg, poi 50–300 µg/kg/min, come l'ERC e più alto di EHRA. Indicazioni diverse, stessi farmaci: la dose si prende dalla linea guida dell'aritmia che si tratta. La FA è di <b>Tool CV FA</b> e <b>Tool FC FA</b>.") +
+      incD(viv("amio") || (viv("bb") && sd.ramo === "rvot"), "<b>FA, ESC 2024</b> (distillato, sezione 4; scheda 10, sezione 8, Tab. 12). Per il controllo della frequenza nella FA l'amiodarone e.v. è 300 mg in 30–60 min, preferibilmente da vena centrale, poi 900–1200 mg nelle 24 h; qui, Tab. 8 ESC 2022, 5 mg/kg in 20 min–2 h, 2–3 volte, poi 600–1200 mg/24 h per 8–10 giorni. Il landiololo della FA ha il bolo facoltativo e 1–10 µg/kg/min nel critico, senza il tetto di 80 µg/kg/min della 2022; l'esmololo della FA è 500 µg/kg, poi 50–300 µg/kg/min, come l'ERC e più alto di EHRA. Indicazioni diverse, stessi farmaci: la dose si prende dalla linea guida dell'aritmia che si tratta. La FA è di <b>Tool CV FA</b> e <b>Tool FC FA</b>.") +
       inc2(s.sca, "<b>SCA, ESC 2023</b> (distillato, sezione 4; scheda 09, sezione 12). Nelle aritmie ventricolari della SCA betabloccante e.v. e/o amiodarone nella TV polimorfa o FV è I B; la lidocaina IIb C quando betabloccanti, amiodarone e overdrive falliscono; lo stimolatore transvenoso per interrompere o per l'overdrive IIa C. Qui la lidocaina ha la IIb C solo nella TV polimorfa o FV ricorrente della SCA (Rec. Table 22, p. 4046). La coronarografia nella NSTE-ACS è di <b>Tool Invasiva</b>, la riperfusione nello STEMI di <b>Tool Riperfusione</b>.") +
       nota("spenta", "<b>Cardiomiopatie, ESC 2023.</b> Per la gestione acuta delle aritmie ventricolari rimanda alla 2022, con gli stessi principi: cause reversibili, eziologia, interruzione con cardioversione, antiaritmici o pacing secondo la tolleranza" + pgs(C44) + ". Nessuna classe diversa da far prevalere.");
 
     /* incoerenze */
     var procaViva = viv("proca"), amioViva = viv("amio");
     el("outInc").innerHTML =
-      inc2(sd.ramo === "altro" && s.risc === "alto", "<b>Procainamide senza cardiopatia.</b> La Fig. 9 la mette in classe IIa anche nella TV idiopatica di tipo incerto" + pgs(F9) + "; la Rec. Table 9 dà la IIa B solo con cardiopatia nota o sospetta" + pgs(R9b) + ", e il testo la usa per la TV tollerata di eziologia ignota" + pgs(P30) + ". Lo strumento mostra la classe della figura, senza livello. Accanto, con il suo anno: la ESC 2019 sulle TSV dà la procainamide e.v. " + corPill("IIa", "B") + " nella tachicardia a QRS largo senza una diagnosi stabilita, dopo manovre vagali e adenosina, senza condizioni sulla cardiopatia" + pgs(V672) + "; lo strumento resta sulla ESC 2022.") +
-      inc2(sd.ramo === "altro" && s.risc === "alto", "<b>Amiodarone senza cardiopatia.</b> Nella Fig. 9 sta fra gli IIb senza cardiopatia «per la scarsa disponibilità degli altri antiaritmici» (nota c)" + pgs(F9) + "; la Rec. Table 9 gli dà la IIb B «senza una diagnosi stabilita»" + pgs(R9b) + ". Lo strumento usa la IIb B.") +
-      inc2(sd.ramo === "fasc" || sd.ramo === "rvot", "<b>Cardioversione o farmaco nella TV idiopatica nota.</b> La Rec. Table 9 dà la cardioversione come prima scelta in ogni TV monomorfa tollerata con rischio della sedazione basso " + corPill("I", "C") + pgs(R9a) + "; la Fig. 9 manda la TV fascicolare e quella del tratto di efflusso note subito al farmaco (I C), e alla cardioversione se non si ferma" + pgs(F9) + ". Lo strumento segue la figura e lo scrive.") +
-      inc2(procaViva, "<b>Procainamide, tre dosi.</b> ESC: 100 mg ogni 5 min fino a 500–750 mg" + pgs(T8b) + "; ERC: 10–15 mg/kg in 20 min" + pgs(E9) + "; EHRA: 10–17 mg/kg a 20–50 mg/min, al massimo 500–750 mg" + pgs(H16) + ". A 70 kg l'ERC fa 700–1050 mg, EHRA fino a 1190: oltre il tetto della ESC, che lo strumento applica a tutte e tre.") +
-      inc2((f.proca.ru.r === "ind" || f.proca.ru.r === "erc") && rn.noto, "<b>Procainamide e rene terminale.</b> La fonte la esclude nell'insufficienza renale terminale senza un numero" + pgs(P30) + "; lo strumento la riconosce nella dialisi e sotto 15 mL/min, lo stadio G5" + dv("la soglia, da confermare dal medico") + ".") +
-      inc2(amioViva, "<b>Amiodarone: peso o dose fissa.</b> ESC ed EHRA danno 5 mg/kg, ripetibili 2–3 volte nelle 24 h" + pgs(T8a + "; " + H17) + "; l'ERC 300 mg fissi, in 10–20 min" + pgs(E9) + " o in 10–60 min" + pgs(E39) + " — due durate nello stesso documento —, e poi 900 mg/24 h contro i 600–1200 della ESC. A 70 kg, 350 mg contro 300.") +
-      inc2(sd.ramo === "instab", "<b>Energia della cardioversione.</b> ERC: primo shock 120–150 J, poi crescente" + pgs(E9) + "; EHRA: 120–150 J nel testo" + pgs(H11) + ", 120–200 J bifasici nella figura" + pgs(H12) + ". La ESC 2022 non dà energie.") +
-      inc2(sd.ramo === "instab", "<b>Procainamide nell'instabile.</b> L'ERC la propone dopo una cardioversione fallita, in alternativa all'amiodarone" + pgs(E9) + "; la Tab. 8 la controindica nell'ipotensione" + pgs(T8b) + ". Lo strumento la lascia «con riserva».") +
-      inc2(sd.ramo === "fasc", "<b>Verapamil: per chi lo scrive.</b> La ESC lo raccomanda nella TV fascicolare nota " + corPill("I", "C") + pgs(R9b) + "; l'ERC dà la sua dose per peso nella riga delle tachicardie a QRS stretto" + pgs(E39) + "; la scheda tecnica lo controindica nelle tachicardie a QRS largo" + st("verapamil") + ".") +
-      inc2(sd.ramo !== "instab" && s.tsv === "si", "<b>Adenosina: 18 mg.</b> ESC: 6–18 mg" + pgs(T8a) + "; ERC: 6, poi 12, poi da considerare 18 mg" + pgs(E39) + "; le schede tecniche: 3, 6, 12 mg, e dosi più alte non consigliate" + sts("adenosina") + ".") +
-      inc2(sd.ramo === "rvot", "<b>Betabloccanti e.v.: chi dà la dose.</b> La Tab. 8 scrive «various»" + pgs(T8a) + ". Esmololo: stesso bolo, EHRA 25–50 fino a 250 µg/kg/min" + pgs(H17) + ", ERC 50–300" + pgs(E39) + ". Landiololo: la ESC ha il bolo e il tetto di 80 µg/kg/min" + pgs(T8a) + ", l'ERC il bolo facoltativo e 1–10 µg/kg/min con VS ridotto" + pgs(E39) + ". Metoprololo: EHRA 2–5 mg ×3" + pgs(H17) + ", ERC 2,5–15 mg nella riga del QRS stretto" + pgs(E39) + ".") +
+      (s.ipot ? inc2(true, "<b>Ipotensione: chi la scrive come.</b> La Tab. 8 la mette fra le controindicazioni della procainamide" + pgs(T8b) + " e del landiololo" + pgs(T8a) + "; per gli altri betabloccanti e per il verapamil è fra gli effetti collaterali" + pgs(T8a + "; " + T8c) + ". L'ERC dà la procainamide dopo una cardioversione fallita" + pgs(E9) + ", considera esmololo e landiololo anche con instabilità emodinamica, ed evita il verapamil con instabilità emodinamica" + pgs(E39) + ". Le schede tecniche scrivono «ipotensione», «grave» o «severa», e quella del verapamil lascia fuori gli stati ipotensivi dovuti alla tachicardia (4.3). Il sotalolo e.v., betabloccante, nella Tab. 8 non l'ha fra le controindicazioni; la scheda italiana, per bocca, sì (4.3). Lo strumento non gradua e non cerca la causa: esclude procainamide, adenosina, betabloccanti e.v., sotalolo compreso, e verapamil, tiene l'amiodarone con riserva (scelta del medico, 08/11/2026).") : "") +
+      (s.lqts ? inc2(true, "<b>Sindrome del QT lungo: cautela o esclusione.</b> La Tab. 8 chiede cautela con le condizioni che allungano il QT, e di sospendere sopra 500 ms" + pgs(T8n) + "; la Rec. Table 41 raccomanda nel QT lungo di evitare i farmaci che lo allungano " + corPill("I", "C") + pgs(R41) + "; l'ERC dà amiodarone o procainamide dopo una cardioversione fallita senza parlare del QT" + pgs(E9) + ", e nella TV polimorfa con il QT allungato evita l'amiodarone" + pgs(F8) + ". Lo strumento segue la lettura più prudente e li esclude, anche nell'instabile: resta la cardioversione (scelta del medico, 08/11/2026). La Tab. 8 non controindica la flecainide nel tipo 3" + pgs(T8b) + ": lo strumento non distingue il tipo.") : "") +
+      inc2(sd.ramo === "altro" && s.risc === "alto" && !s.ipot && !s.lqts, "<b>Procainamide senza cardiopatia.</b> La Fig. 9 la mette in classe IIa anche nella TV idiopatica di tipo incerto" + pgs(F9) + "; la Rec. Table 9 dà la IIa B solo con cardiopatia nota o sospetta" + pgs(R9b) + ", e il testo la usa per la TV tollerata di eziologia ignota" + pgs(P30) + ". Lo strumento mostra la classe della figura, senza livello. Accanto, con il suo anno: la ESC 2019 sulle TSV dà la procainamide e.v. " + corPill("IIa", "B") + " nella tachicardia a QRS largo senza una diagnosi stabilita, dopo manovre vagali e adenosina, senza condizioni sulla cardiopatia" + pgs(V672) + "; lo strumento resta sulla ESC 2022.") +
+      inc2(sd.ramo === "altro" && s.risc === "alto" && !s.lqts, "<b>Amiodarone senza cardiopatia.</b> Nella Fig. 9 sta fra gli IIb senza cardiopatia «per la scarsa disponibilità degli altri antiaritmici» (nota c)" + pgs(F9) + "; la Rec. Table 9 gli dà la IIb B «senza una diagnosi stabilita»" + pgs(R9b) + ". Lo strumento usa la IIb B.") +
+      inc2((sd.ramo === "fasc" || sd.ramo === "rvot") && !sd.senza, "<b>Cardioversione o farmaco nella TV idiopatica nota.</b> La Rec. Table 9 dà la cardioversione come prima scelta in ogni TV monomorfa tollerata con rischio della sedazione basso " + corPill("I", "C") + pgs(R9a) + "; la Fig. 9 manda la TV fascicolare e quella del tratto di efflusso note subito al farmaco (I C), e alla cardioversione se non si ferma" + pgs(F9) + ". Lo strumento segue la figura e lo scrive.") +
+      incD(procaViva, "<b>Procainamide, tre dosi.</b> ESC: 100 mg ogni 5 min fino a 500–750 mg" + pgs(T8b) + "; ERC: 10–15 mg/kg in 20 min" + pgs(E9) + "; EHRA: 10–17 mg/kg a 20–50 mg/min, al massimo 500–750 mg" + pgs(H16) + ". A 70 kg l'ERC fa 700–1050 mg, e nella figura, per l'instabile, si ferma a 1 g" + pgs(F8) + "; EHRA arriva fino a 1190: oltre il tetto della ESC, che lo strumento applica a tutte e tre.") +
+      inc2((f.proca.ru.r === "ind" || f.proca.ru.r === "erc") && rn.noto && !s.ipot && !s.lqts, "<b>Procainamide e rene terminale.</b> La fonte la esclude nell'insufficienza renale terminale senza un numero" + pgs(P30) + "; lo strumento la riconosce nella dialisi e sotto 15 mL/min, lo stadio G5" + dv("la soglia, da confermare dal medico") + ".") +
+      incD(amioViva, "<b>Amiodarone: peso o dose fissa.</b> ESC ed EHRA danno 5 mg/kg, ripetibili 2–3 volte nelle 24 h" + pgs(T8a + "; " + H17) + "; l'ERC 300 mg fissi, in 10–20 min" + pgs(E9) + " o in 10–60 min" + pgs(E39) + " — due durate nello stesso documento —, e poi 900 mg/24 h contro i 600–1200 della ESC. A 70 kg, 350 mg contro 300.") +
+      inc2(sd.ramo === "instab", "<b>Energia della cardioversione" + (min18 ? ", nell'adulto" : "") + ".</b> ERC: primo shock 120–150 J, poi crescente" + pgs(E9) + "; EHRA: 120–150 J nel testo" + pgs(H11) + ", 120–200 J bifasici nella figura" + pgs(H12) + ". La ESC 2022 non dà energie.") +
+      inc2(sd.ramo === "instab", "<b>Procainamide nell'instabile.</b> L'ERC la propone dopo una cardioversione fallita, in alternativa all'amiodarone" + pgs(E9) + "; la Tab. 8 la controindica nell'ipotensione" + pgs(T8b) + ". " + (s.ipot ? "Con la casella dell'ipotensione lo strumento la esclude e resta l'amiodarone." : "Lo strumento la lascia «con riserva»: segna la casella se c'è.") + (s.lqts ? " Con la sindrome del QT lungo restano fuori tutte e due." : "")) +
+      inc2(sd.ramo === "fasc" && !sd.senza, "<b>Verapamil: per chi lo scrive.</b> La ESC lo raccomanda nella TV fascicolare nota " + corPill("I", "C") + pgs(R9b) + "; l'ERC dà la sua dose per peso nella riga delle tachicardie a QRS stretto" + pgs(E39) + "; la scheda tecnica lo controindica nelle tachicardie a QRS largo" + st("verapamil") + ".") +
+      incD(sd.ramo !== "instab" && s.tsv === "si" && f.ade.stato !== "no", "<b>Adenosina: 18 mg.</b> ESC: 6–18 mg" + pgs(T8a) + "; ERC: 6, poi 12, poi da considerare 18 mg" + pgs(E39) + "; le schede tecniche: 3, 6, 12 mg, e dosi più alte non consigliate" + sts("adenosina") + ".") +
+      incD(sd.ramo === "rvot" && !sd.senza, "<b>Betabloccanti e.v.: chi dà la dose.</b> La Tab. 8 scrive «various»" + pgs(T8a) + ". Esmololo: stesso bolo, EHRA 25–50 fino a 250 µg/kg/min" + pgs(H17) + ", ERC 50–300" + pgs(E39) + ". Landiololo: la ESC ha il bolo e il tetto di 80 µg/kg/min" + pgs(T8a) + ", l'ERC il bolo facoltativo e 1–10 µg/kg/min con VS ridotto" + pgs(E39) + ". Metoprololo: EHRA 2–5 mg ×3" + pgs(H17) + ", ERC 2,5–15 mg nella riga del QRS stretto" + pgs(E39) + ".") +
       inc2(sd.ramo === "rvot" && s.brs, "<b>Betabloccanti e sindrome di Brugada.</b> La Tab. 8 mette la Brugada fra le controindicazioni dei betabloccanti" + pgs(T8a) + "; la tabella EHRA non la elenca fra le loro cautele" + pgs(H17) + ". Lo strumento segue la ESC.") +
-      inc2(sd.ramo === "rvot", "<b>Metoprololo e rene.</b> La scheda tecnica non riduce la dose nell'insufficienza renale (4.2) ma controindica l'«insufficienza renale grave» senza soglia (4.3)" + st("metoprololo") + ".") +
+      inc2(sd.ramo === "rvot" && !sd.senza, "<b>Metoprololo e landiololo, rene.</b> Il metoprololo non ha aggiustamenti (4.2), ma una delle due schede controindica l'«insufficienza renale grave», senza soglia (4.3)" + sts("metoprololo") + ": lo strumento legge grave = ClCr &lt;30, e sotto non dà dosi. Il landiololo scrive insieme «nessuna modifica» e «non valutata» nella compromissione lieve o moderata" + st("landiololo", "4.2, 5.2") + ": sotto 60 mL/min, lettura nostra, lo strumento non dà i mg, e decide il centro.") +
       inc2(f.flec.ru.r === "ind" && (rn.dialisi || (rn.crcl !== null && r1(rn.crcl) <= SOGLIE.flec)), "<b>Flecainide e rene.</b> La fonte la controindica con CrCl &lt;35 mL/min/1,73 m²" + pgs(T8b) + "; la scheda tecnica la usa ancora con ClCr ≤35, dimezzando ogni dose e.v., con i livelli plasmatici" + st("flecainide fiale", "4.2") + ". Lo strumento segue la fonte sotto 35, e a 35 esatti dimezza come la scheda tecnica, come Tool CV FA.") +
       inc2(f.sota.ru.r === "ind" && rn.crcl !== null && rn.crcl < SOGLIE.sotaPiena, "<b>Sotalolo e rene.</b> La fonte lo controindica con CrCl &lt;30 mL/min" + pgs(T8c) + "; l'etichetta olandese, per le dosi ripetute, dà metà dose fra 30 e 60 e un quarto fra 10 e 30" + st("sotalolo e.v.") + ". Lo strumento esclude sotto 30 e dimezza la dose ripetuta fra 30 e 60.");
 
     /* limiti */
     var lim = [];
+    if (s.fuori.length) lim.push("Valori fuori dal dominio, non usati: " + s.fuori.join("; ") + ".");
     lim.push("Lo strumento segue la Fig. 9: il singolo episodio di tachicardia regolare a QRS largo nell'adulto. La tempesta elettrica è di Tool Tempesta; la FA di Tool CV FA e Tool FC FA; la FA preeccitata della scheda 15, sezione 14: Tool FA preeccitata ne dà i farmaci, Tool CV FA, con la sua casella, ne tiene la strada dell'anticoagulante senza proporre farmaci, e Tool FC FA ne ferma i farmaci.");
     lim.push("«Tollerata», «rischio della sedazione» e cardiopatia «significativa» sono giudizi clinici: la fonte non li quantifica (Fig. 9, nota b). I segni di instabilità sono quelli dell'ERC 2025 (p. 9).");
     lim.push("Dosi per kg sul peso reale; il tetto dell'adulto ferma la dose calcolata dove una fonte o la scheda tecnica lo scrive (procainamide 750 mg, flecainide 150 mg, ajmalina 100 mg, sotalolo 120 mg, verapamil 10 mg, propranololo 10 mg, lidocaina 200 mg di bolo e 4 mg/min). Per il singolo carico di amiodarone nessuna fonte dà un tetto: DA VERIFICARE nel paziente pesante.");
-    if (s.eta !== null && (s.eta < SOGLIE.etaMin || s.eta > SOGLIE.etaMax)) lim.push("Età fuori dall'adulto (18–110 anni): la clearance non si calcola" + (s.eta < SOGLIE.etaMin ? ", e nemmeno i mg delle dosi dell'adulto." : "."));
+    if (s.eta !== null && (s.eta < SOGLIE.etaMin || s.eta > SOGLIE.etaMax)) lim.push("Età fuori dall'adulto (18–110 anni): la clearance non si calcola" + (s.eta < SOGLIE.etaMin ? ", e nessuna dose in mg o per kg, nemmeno le dosi fisse. Strada e classi sono quelle scritte per l'adulto, e l'energia della cardioversione è dell'adulto." : "."));
     lim.push("Clearance di Cockcroft-Gault sul peso reale, che decide; con BMI ≥30 accanto quella sul peso aggiustato (ideale di Devine + 0,4 × l'eccesso), con un avviso se le due cadono ai lati di una soglia del farmaco (decisione del medico, 03/10/2026). La soglia della flecainide è scritta in mL/min/1,73 m², l'unità dell'eGFR.");
     if (cl.clcr !== null && s.alt === null) lim.push("Altezza non indicata: il BMI non si calcola e manca il confronto col peso aggiustato; nell'obeso la clearance sul peso reale la sovrastima.");
     lim.push("L'insufficienza renale terminale che esclude la procainamide non ha un numero nella fonte: lo strumento usa la dialisi e ClCr &lt;15 mL/min (stadio G5), da confermare.");
+    lim.push("Metoprololo: «insufficienza renale grave» senza numero, letta ClCr &lt;30. Landiololo: compromissione renale senza numero, letta ClCr &lt;60, e lì decide il centro. Letture nostre, come nei prontuari.");
+    lim.push("L'ipotensione non si gradua e non se ne cerca la causa: la casella del passo 4 esclude procainamide, adenosina, betabloccanti e.v., sotalolo e.v. compreso, e verapamil anche dove le fonti controindicano solo quella «severa» o «grave», e l'amiodarone resta, con riserva (scelta del medico, 08/11/2026). A casella spenta la procainamide dopo una cardioversione fallita resta «con riserva». Flecainide e ajmalina: la Tab. 8 non ha l'ipotensione fra le loro controindicazioni (pp. 4035–4036) e la casella non le tocca, ma tutti gli antiaritmici possono darla (p. 4030), e la scheda della flecainide chiede di correggere prima la marcata ipotensione (4.4).");
+    lim.push("Sindrome del QT lungo: procainamide e amiodarone sono esclusi in ogni ramo, anche dopo gli shock che non riescono, come lettura più prudente dello strumento (scelta del medico, 08/11/2026); resta la cardioversione. Un QTc oltre 500 ms senza la casella non basta: resta la nota a della Tab. 8.");
     lim.push("Il QTc è quello dell'ultimo ECG in ritmo sinusale: durante la TV non si misura. Il potassio si giudica sui limiti del laboratorio, perché la fonte non dà numeri.");
     lim.push("Procainamide, ajmalina, sotalolo e.v. e propranololo e.v. non sono in commercio in Italia: le loro schede tecniche sono estere (Spagna, Austria e Francia, Paesi Bassi, Francia).");
     lim.push("Fuori dallo strumento: gravidanza, bambini, la terapia dopo l'episodio (ICD, ablazione, antiaritmici a lungo termine), le interazioni con i farmaci del paziente.");
@@ -1229,7 +1425,7 @@ html.js.motore-ko #nomotore{display:block}
     else if (sd.gate === "manca") bar("barFarm", "kx", "—");
     else if ((sd.ramo === "shd" || sd.ramo === "altro") && s.risc === "basso") bar("barFarm", "k1", "nessuno: cardioversione");
     else bar("barFarm", "k4", "nessuno ammesso: cardioversione");
-    bar("barRene", rn.dialisi ? "k4" : (rn.crcl !== null ? (rn.crcl < 30 ? "k4" : (rn.crcl < 35 || rn.crcl <= 60 ? "k3" : "k1")) : "kx"), rn.dialisi ? "dialisi" : (rn.crcl !== null ? "ClCr " + nf(rn.crcl, 0) : "—"));
+    bar("barRene", rn.dialisi ? "k4" : (rn.crcl !== null ? (rn.crcl < 30 ? "k4" : (rn.crcl < 35 || rn.crcl <= 60 ? "k3" : "k1")) : "kx"), rn.dialisi ? "dialisi" : (rn.crcl !== null ? "ClCr " + nfCl(rn.crcl, true) : "—"));
   }
 
   document.addEventListener("input", disegna);
